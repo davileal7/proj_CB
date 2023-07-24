@@ -53,6 +53,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+    border: 1px solid #464646;
 
 }
 
@@ -156,10 +157,9 @@ header {
 .mobile-menu {
     position: absolute;
     width: 300px;
-    backdrop-filter: blur(20px); 
-    border-radius: 10px;
+    background-color: #24252a;
     overflow: hidden;
-    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: 1s;
 }
 
 .mobile-menu ul {
@@ -202,11 +202,11 @@ header {
 .titulo {
     background-color: #24252a;
     font-family: 'Jost', sans-serif;
-    text-shadow: 1px 6px 1px #0e0a0a;
+    text-shadow: 1px 4px 1px #0e0a0a;
     color: #fff;
     height: 80px;
     width: 100vw;
-    font-size: 3.9rem;
+    font-size: 60px;
     text-align: center;
     border: 1px solid  #24252a;
 }
@@ -350,7 +350,7 @@ header {
 
 
 
-footer {
+.container-desktop {
     font-family: 'Jost', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -401,9 +401,13 @@ footer .fale_conosco {
     transition: 0.5s;
 }
 
+.container-mobile {
+    display: none;
+}
+
 
 /* RESPONSIVE DESIGN */
-@media(max-width: 830px) 
+@media(max-width: 730px) 
 
 {
 
@@ -414,7 +418,7 @@ footer .fale_conosco {
     }
 
     .fundo_casa {
-        height: 80vh;
+        height: 400px;
         width: 100vw;
        
     }
@@ -429,18 +433,21 @@ footer .fale_conosco {
         align-items: center;
         width: 100vw;
         background: url('img/madeira.jpg');
-        
     }
 
-    footer {
-        height: 390px;
+    footer .container-mobile {
+        height: 310px;
         width: 100vw;
     }
      /* fim Container Principais */
     
     .navbar {
-        font-size: 0.8rem;
-        padding: 1.5rem 4rem;
+        
+        padding: 25px;
+    }
+
+    .logo-site h1 {
+        font-size: 18px;
     }
 
     .nav-item {
@@ -523,7 +530,7 @@ footer .fale_conosco {
     }
 
     .titulo {
-        font-size: 2.5rem;
+        font-size: 40px;
         height: 55px;
     }
 
@@ -583,15 +590,17 @@ footer .fale_conosco {
     }
 
     .manual-navigation {
-        position: absolute;
+        display: none;
+       /* position: absolute;
         width: 400px;
-        margin-top: -140px;
+        margin-top: -140px; */
     }
 
     .navigation-auto {
-        position: absolute;
+        display: none;
+       /* position: absolute;
         width: 400px;
-        margin-top: 260px;
+        margin-top: 260px; */
     }
  
     .mobile-menu .nav-item {
@@ -616,12 +625,13 @@ footer .fale_conosco {
     }
 
 
-    footer {
+    /*footer {
         height: 336px;
     }
 
    
-    footer .fale_conosco {
+    .fale_conosco {
+        display: none;
         padding: 2px;
         text-align: center;
     }
@@ -657,6 +667,7 @@ footer .fale_conosco {
 
     
    .fale_conosco h1 {
+        display: none;
         position: absolute;
         
         top: 1170px;
@@ -666,9 +677,81 @@ footer .fale_conosco {
         border: 1px solid #24252a;
         margin: -6px;
      
+    }*/
+
+  
+    .container-desktop {
+        display: none;
     }
 
-    .redes_sociais {
+    .container-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 2px 2px black;
+        color: #fff;
+        background-color: rgb(194, 63, 43);
+        width: 100vw;
+        text-decoration: none;
+        border: 1px solid #381f1f;
+    }
+
+    .container-mobile .fale-conosco-mobile {
+        margin-top: 25px;
+    }
+
+    .fale-conosco-mobile h2,
+    .redes-sociais-mobile h2 {
+        font-size: 18px;
+        text-align: center;
+      
+    }
+
+    .fale-conosco-mobile .redes-sociais-mobile {
+        margin: 10px;
+    }
+
+    .fale-conosco-mobile ul li {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .fale-conosco-mobile a {
+        font-size: 16px;
+    }
+
+    .fale-conosco-mobile li span {
+        font-size: 11px;
+    }
+
+    .fale-conosco-mobile .localizacao:hover{
+        scale: 1.1;
+        transition: 1s;
+    }
+
+    .redes-sociais-mobile li a {
+        font-size: 11px;
+    }
+
+    .redes-sociais-mobile li:hover {
+        scale: 1.1;
+        transition: 1s;
+    }
+
+
+    .logo-site-mobile h1{
+        background-color: rgb(133, 53, 53);
+        font-size: 18px;
+        text-align: center;
+        width: 100vw;
+    }
+
+
+    /*.redes_sociais {
+        display: none;
         position: absolute;
         top: 1030px;
         left: 150px;
@@ -682,12 +765,12 @@ footer .fale_conosco {
     }
     
     .mobile_rs {
-        display: flex;
+        display: none;
         position: absolute;
         left: -60px;
     }
 
     .logo a {
         font-size: 15px;
-    }
+    } */
 }
