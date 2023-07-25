@@ -487,18 +487,28 @@ button:hover {
       position: fixed;       
     }
 
+    .fundo_casa {
+        background: url('img/casa-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        
+        border: 1px solid #381f1f;
+        height: 900px;
+    }
+
     .fundo_casa .quem_somos {
         font-family: 'Lumanosimo', cursive;
         text-shadow: 1px 3px 2px #060101;
         backdrop-filter:none;
         box-shadow: 1px 1px 1px 1px  black;
         color: #fff;
-        font-size: 18px;
+        font-size: 19px;
         margin-top: 150px;
         margin-left: 1px;
     
         height: 90px;
-        width: 375px;
+        width: 394px;
         border-radius: 1px;
         text-align: center;
     }
@@ -605,7 +615,7 @@ button:hover {
     }
 
     .container-email {
-        margin-top: 80px;
+        margin-top: 410px;
 
         
     }
