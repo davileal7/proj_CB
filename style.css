@@ -494,23 +494,22 @@ button:hover {
         width: 100vw;
         
         border: 1px solid #381f1f;
-        height: 900px;
+        height: 740px;
     }
 
     .fundo_casa .quem_somos {
         font-family: 'Lumanosimo', cursive;
         text-shadow: 1px 3px 2px #060101;
         backdrop-filter:none;
-        box-shadow: 1px 1px 1px 1px  black;
+        box-shadow: 2px 1px 4px 1px  black;
         color: #fff;
-        font-size: 19px;
-        margin-top: 150px;
+        font-size: 23px;
+        margin-top: 450px;
         margin-left: 1px;
-    
-        height: 90px;
-        width: 394px;
+        height: 125px;
+        width: 390px;
         border-radius: 1px;
-        text-align: center;
+        text-align: left;
     }
     
     .titulo {
@@ -615,6 +614,7 @@ button:hover {
     }
 
     .container-email {
+        display: none;
         margin-top: 410px;
 
         
