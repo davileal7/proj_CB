@@ -493,11 +493,12 @@ button:hover {
         backdrop-filter:none;
         box-shadow: 1px 1px 1px 1px  black;
         color: #fff;
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 150px;
+        margin-left: 1px;
     
-        height: 80px;
-        width: 340px;
+        height: 90px;
+        width: 375px;
         border-radius: 1px;
         text-align: center;
     }
@@ -603,7 +604,11 @@ button:hover {
         display: block;
     }
 
-    
+    .container-email {
+        margin-top: 80px;
+
+        
+    }
 
     .titulo {
         font-size: 40px;
