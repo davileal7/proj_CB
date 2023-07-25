@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        
         <div class="navbar">
             <div class="logo-site">
                 <h1>
@@ -52,11 +53,25 @@
     </header>
 
     <section class="fundo_casa">
+        
         <div class="quem_somos">
           
                 <p>
             De madeira ou alvenaria, você sonha, nós construimos sua casa na cidade, praia, campo ou montanha em aproximadamente 4 meses.
                 </p>
+        </div>
+
+        <div class="container-email">
+            <h3>Contato por E-mail</h3>
+            <hr>
+            <form class="contato-form" action="https://formsubmit.co/davi_m_leal@hotmail.com" method="POST">
+                <label class="caixa" for="email">E-mail</label>
+                <input type="email" name="email" id="email" required autocomplete="off" placeholder="digite seu e-mail...">
+                <label class="caixa" for="msg">Mensagem</label>
+                <input type="text" name="msg" id="msg" required autocomplete="off" placeholder="digite sua mensagem...">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                <button type="submit">Enviar</button>
+            </form>
         </div>
             
         <!--<button class="btn_proj">Conheça os projetos<ion-icon class="btn_mais" name="add-outline"></ion-icon></button>-->
@@ -192,6 +207,14 @@
             </h1>
         </div>
     </footer>
+
+    <div class="whats">
+        <a href=" https://wa.me/5512988160632?text=
+        “Olá, bem-vindo à nossa loja! Estamos muito felizes em tê-lo como nosso cliente. Se precisar de ajuda em qualquer coisa, por favor, não hesite em entrar em contato conosco aqui no WhatsApp.”" target="_blank">
+            
+            <img src="menu_icon/whats.png" width="50" alt="Fale Conosco pelo WhatsApp" title="Fale conosco pelo WhatsApp">
+        </a>
+    </div>
    
 
 <script src="script.js"></script>
