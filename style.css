@@ -517,12 +517,12 @@ button:hover {
         font-family: 'Lumanosimo', cursive;
         text-shadow: 1px 3px 2px #060101;
         backdrop-filter:none;
-        box-shadow: 2px 1px 4px 1px  black;
+        box-shadow: 1px 1px 3px 1px  black;
         color: #fff;
         font-size: 24px;
         margin-top: 450px;
         margin-left: 5px;
-        height: 125px;
+        height: 115px;
         width: 390px;
         border-radius: 1px;
         text-align: justify;
