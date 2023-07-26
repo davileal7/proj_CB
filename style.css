@@ -443,7 +443,9 @@ footer .fale_conosco {
     transition: 1s
 }
 
+/*E-MAIL */
 .container-email {
+    display: none;
     margin: 55px;
     font-size: 18px;
     font-family: 'Jost', sans-serif;
@@ -454,7 +456,6 @@ footer .fale_conosco {
     width: 260px;
     border-radius: 10px;
 }
-
 .contato-form input {
     display: flex;
     width: 245px;
@@ -462,12 +463,10 @@ footer .fale_conosco {
     box-shadow: 1px 1px 2px 2px black;
     border-radius: 5px;
 }
-
 .contato-form input[type=email] {
     height: 30px;
     box-shadow: 1px 1px 2px 2px black;
 }
-
 .contato-form input[type=text] {
     height: 90px;
     box-shadow: 1px 1px 2px 2px black;
@@ -476,7 +475,6 @@ footer .fale_conosco {
 .contato-form button {
     margin-left: 80px;    
 }
-
 .contato-form button {
     cursor: pointer;
     background-color: white;
@@ -486,13 +484,13 @@ footer .fale_conosco {
     border-radius: 10px;
     box-shadow: 1px 3px 1px black;
 }
-
 button:hover {
     scale: 1.1;
     transition: 1s;
     color: #fff;
     background-color: rgb(48, 130, 171);
 }
+
 
 
 /* RESPONSIVE DESIGN */
@@ -572,7 +570,6 @@ button:hover {
 
     .btn_pag {
         display: none;
-        
     }
 
     /*Opções Mobile */
@@ -766,7 +763,6 @@ button:hover {
     .redes-sociais-mobile h2 {
         font-size: 18px;
         text-align: center;
-      
     }
 
     .fale-conosco-mobile .redes-sociais-mobile {
@@ -801,14 +797,12 @@ button:hover {
         transition: 1s;
     }
 
-
     .logo-site-mobile h1{
         background-color: rgb(133, 53, 53);
         font-size: 18px;
         text-align: center;
         width: 100vw;
     }
-
 
     .whats {
         position: fixed;
