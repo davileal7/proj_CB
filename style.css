@@ -193,16 +193,19 @@ header {
 
 .fundo_casa .quem_somos {
     font-family: 'Lumanosimo', cursive;
-    text-shadow: 1px 2px 1px #060101;
-    backdrop-filter: blur(4px);
-    box-shadow: 1px 1px 1px  black;
+    text-shadow: 2px 2px 1px #060101;
+    backdrop-filter: blur(8px);
     color: #fff;
-    font-size: 1.9rem;
+    font-size: 34px;
     margin-left: 40px;
     height: 160px;
     width: 650px;
     border-radius: 1px;
     text-align: center;
+}
+
+.quem-somos-mobile {
+    display: none;
 }
 
 .titulo {
@@ -511,19 +514,18 @@ button:hover {
         height: 740px;
     }
 
-    .fundo_casa .quem_somos {
-        font-family: 'Lumanosimo', cursive;
-        text-shadow: 1px 3px 2px #060101;
-        backdrop-filter:none;
-        box-shadow: 1px 1px 3px 1px  black;
+    .quem_somos {
+       display: none;
+    }
+    
+    .quem-somos-mobile  {
+        margin-top: 460px;
         color: #fff;
-        font-size: 24px;
-        margin-top: 450px;
-        margin-left: 5px;
-        height: 115px;
-        width: 390px;
-        border-radius: 1px;
-        text-align: justify;
+        display: flex;
+        font-family: 'Lumanosimo', cursive;
+        list-style: none;
+        font-size: 22px;
+        text-shadow: 2px 2px 1px #060101;
     }
     
     .titulo {
