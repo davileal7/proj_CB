@@ -1,0 +1,347 @@
+/* RESPONSIVE DESIGN */
+@media(max-width: 730px) 
+
+{
+    /* Container Principais */
+    header {
+      position: fixed;       
+    }
+
+    .fundo_casa {
+        background: url('/img/casa-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        border: 1px solid #381f1f;
+        height: 740px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato {
+       display: none;
+    }
+    
+   
+    
+    .titulo {
+        width: 100vw;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        background: none;
+    }
+
+    footer .container-mobile {
+        height: 310px;
+        width: 100vw;
+    }
+     /* fim Container Principais */
+    
+    .navbar {
+        padding: 25px;
+    }
+
+    .logo-site h1 {
+        font-size: 18px;
+    }
+
+    .logo-site span {
+        position: relative;
+        bottom: 7px;
+        left: 2px;
+    }
+
+    .logo-site-mobile span {
+        position: relative;
+        bottom: 7px;
+        left: 2px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .btn_pag {
+        display: none;
+    }
+
+    /*Opções Mobile */
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu {
+        width: 100%;
+    }
+
+    .mobile-menu li {
+        margin: 3px;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        /*novo*/
+        background-color: #060101;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    li .nav-link  {
+        height: 35px;
+    }
+
+    .nav-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    /*FIM - Opções Mobile */
+
+    .navbar02 {
+        display: none;
+    }
+
+    .mobile-menu .btn_pag {
+        margin: 10px;
+        scale: 0.8;
+    }
+
+    .btn_pag a {
+        font-size: 16px;
+        color: #060101;
+    }
+
+    .btn_pag:hover {
+       scale: 1;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .container-email {
+        display: none;
+        margin-top: 410px;
+    }
+
+    .contato {
+        font-size: 20px;
+        height: 170px;
+        width: 390px;
+        border-radius: 5px;
+        display: block;
+        text-align: left;
+        margin-top: 100px;
+        backdrop-filter: none;
+    }
+
+    .contato p {
+        margin:15px;
+    }
+    
+    .container-info {
+        display: block;
+        margin-top: 200px;
+        margin-left: 0px;
+        color: #fff;
+        text-shadow: 2px 3px 2px #060101;
+        backdrop-filter: none; 
+    }
+    
+    .container-info h2 {
+        text-align: center;
+        margin: 1px;
+    }
+    
+    .container-info ul li {
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+    }
+    
+    .container-info .localizacao:hover {
+        scale: 1.1;
+        transition: 0.5s;
+        text-shadow: 1px 3px 2px #060101;
+    }
+
+    
+
+    .container-formulario {
+        padding: 1px;
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size: 18px;
+        font-family: 'Jost', sans-serif;
+        color: #a94141;
+        height: 780px;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    .formulario h3 {
+        margin-left: 100px;
+    }
+
+    .form-mobile {
+        margin-left: 0px;
+        margin: 15px;
+    }
+
+    .form-mobile .formulario {
+        margin-left: 70px;
+    }
+
+    .formulario button {
+        margin-left: 130px;
+    }
+
+    .map {
+        border: none;
+        margin-left: 0px;
+    }
+    
+    .map iframe {
+        margin-left: 70px;
+        display: flex;
+        justify-content: center;
+        width: 350px;
+    }
+    
+    .map h2 {
+        margin-left: 70px;
+        width: 350px;
+        background-color: #a94141;
+        text-shadow: 2px 2px 1px #060101;
+        text-align: center;
+        color: #fff;
+    }
+
+    
+ 
+    .mobile-menu .nav-item {
+       width: 100px; 
+       height: 35px;
+       background-color: #24252a;
+    }
+    
+    .mobile-menu .nav-item:hover {
+        background-color: #907a42;
+        transition: 1.5s;
+        scale: 1.1;
+    }
+
+    .nav-item:hover::after {
+        transform: none;
+    }
+
+    .nav-item::after {
+        background-color: transparent;
+        transform: none;
+    }
+
+    .container-desktop {
+        display: none;
+    }
+
+    .container-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 2px 2px black;
+        color: #fff;
+        background-color: rgb(194, 63, 43);
+        width: 100vw;
+        text-decoration: none;
+        border: 1px solid #381f1f;
+    }
+
+    .container-mobile .fale-conosco-mobile {
+        margin-top: 25px;
+    }
+
+    .fale-conosco-mobile h2,
+    .redes-sociais-mobile h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .fale-conosco-mobile .redes-sociais-mobile {
+        margin: 10px;
+    }
+
+    .fale-conosco-mobile ul li {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .fale-conosco-mobile a {
+        font-size: 16px;
+    }
+
+    .fale-conosco-mobile li span {
+        font-size: 11px;
+    }
+
+    .fale-conosco-mobile .localizacao:hover{
+        scale: 1.1;
+        transition: 1s;
+    }
+
+    .redes-sociais-mobile li a {
+        font-size: 11px;
+    }
+
+    .redes-sociais-mobile li:hover {
+        scale: 1.1;
+        transition: 1s;
+    }
+
+    .logo-site-mobile h1{
+        background-color: rgb(133, 53, 53);
+        font-size: 18px;
+        text-align: center;
+        width: 100vw;
+    }
+
+
+    .whats {
+        position: fixed;
+        bottom: 30px;
+        left: 400px;
+        z-index: 9999;
+        border-radius: 10px;
+    }
+    
+    
+    
+    .whats span {
+        display: none;
+    }
+    
+   
+    
+ 
+}

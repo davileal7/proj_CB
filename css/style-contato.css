@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/*navbar*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+/*quem somos */
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+header {
+    font-family: 'Jost', sans-serif;
+    background-color: #24252a;
+    box-shadow: 1px 1px 5px  #464646;
+    width: 100vw;
+}
+
+.logo-site {
+    text-shadow: 1px 2px 1px #060101;
+    font-size: 0.8rem;
+
+}
+
+.logo-site span {
+    position: relative;
+    bottom: 5px;
+    left: 2px;
+}
+
+.logo-img {
+    height: 35px;
+}
+
+.navbar h1 span {
+    color: #fff;
+}
+
+.navbar h1 span {
+    margin: 1px;
+    padding: 2px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    border: 1px solid #060101;
+
+}
+
+.navbar .btn_pag {
+    color: #060101;
+}
+
+.logo {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav-item {
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-item::after {
+    content: " ";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(255, 248, 248);
+    transition: 0.5s ease-in-out;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+
+.nav-item:hover::after {
+    transform: scaleX(1);
+}
+
+.navbar02 {
+    background-color: rgb(194, 63, 43);
+    color: wheat;
+    font-size: 1.2em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+.navbar02 .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+    font-family: 'Jost', sans-serif;
+}
+
+.btn_pag {
+    background-color: orange;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn_pag:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+
+.mobile-menu {
+    position: absolute;
+    width: 300px;
+    background-color: #24252a;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.mobile-menu ul {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-menu .btn_pag {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo_casa {
+    font-family: 'Jost', sans-serif;
+    background: url('/img/02sala.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 70vh; 
+    border: 1px solid #381f1f;
+    display: flex;
+}
+
+.contato {
+    font-family: 'Lumanosimo', cursive;
+    text-shadow: 2px 2px 1px #060101;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 25px;
+    height: 170px;
+    width: 490px;
+    border-radius: 5px;
+    display: block;
+    text-align: left;
+}
+
+.contato p {
+    margin: 15px;
+}
+
+.container-info {
+    margin-left: 450px;
+    color: #fff;
+    text-shadow: 2px 3px 2px #060101;
+    
+}
+
+.container-info h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.container-info ul li {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.container-info .localizacao:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    text-shadow: 1px 3px 2px #060101;
+}
+
+
+.quem-somos-mobile {
+    display: none;
+}
+
+footer .fale_conosco {
+    padding: 10px;
+}
+
+.container-desktop {
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgb(194, 63, 43);
+    height: 350px;
+    width: 100vw;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px  #464646;
+}
+
+.fale_conosco, 
+.redes_sociais  {
+    text-shadow: 1px 2px 1px #060101;
+    margin: 3px;
+}
+
+.fale_conosco li {
+    margin: 15px;
+    padding: 5px;
+}
+
+.fale_conosco .localizacao:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    text-shadow: 1px 3px 2px #060101;
+}
+
+.redes_sociais li {
+    padding: 10px;
+    margin-right: 450px;
+    margin-top: 10px;
+}
+
+.logo a,
+.logo span {
+    margin: 5px;
+    font-size: 16px;
+}
+
+.redes_sociais li:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.container-mobile {
+    display: none;
+}
+
+.whats {
+    box-shadow: 1px 1px 2px 2px black;
+    background-color:rgb(0, 231, 119) ;
+    position: fixed;
+    bottom: 30px;
+    left: 550px;
+    z-index: 9999;
+    border-radius: 10px;
+}
+
+.whats img {
+    margin: 1px;
+    padding: 1px;
+}
+
+.whats span {
+    position: relative;
+    bottom:15px;
+}
+
+.whats-contato {
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    text-shadow: 1px 1px 1px #24252a;
+    padding: 5px;
+}
+
+.whats:hover{ 
+    scale: 1.1;
+    transition: 1s
+}
+
+/*E-MAIL */
+.container-formulario {
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    color: #a94141;
+    height: 480px;
+    width: 260px;
+    display: flex;
+   
+}
+.container-formulario h3 {
+    margin: 10px;
+    text-align: center;
+}
+
+.caixa {
+    margin: 5px;
+}
+.formulario #email,
+.formulario #msg {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    border: none;  
+    box-shadow: 0px 1px 1px black;
+    margin: 5px; 
+}
+
+#email:hover,
+#msg:hover {
+    box-shadow: 2px 2px 2px black;
+    scale: 1.02;
+    transition: 1s;
+}
+
+.contato-form button {
+    margin-left: 80px;    
+}
+.formulario button {
+    margin-left: 110px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    
+   
+}
+button:hover {
+    scale: 1.1;
+    transition: 1s;
+    color: #fff;
+    background-color: #a94141;
+}
+
+.map {
+    border: 1px solid black;
+    margin-left: 450px;
+}
+
+
+.map h2 {
+    background-color: #a94141;
+    text-shadow: 2px 2px 1px #060101;
+    text-align: center;
+    color: #fff;
+}
