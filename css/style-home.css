@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 
 /*navbar*/
@@ -183,12 +182,13 @@ header {
 }
 
 .fundo_casa {
-    background: url('img/casa_fundo.jpg');
+    background: url('/img/casa_fundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh; 
     border: 1px solid #381f1f;
+    display: flex;
 }
 
 .fundo_casa .quem_somos {
@@ -220,15 +220,13 @@ header {
     border: 1px solid  #24252a;
 }
 
-
 /* SLIDES */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    border: 1px solid  #24252a;
-    
+    border: 1px solid  #24252a; 
 }
 
 .slider {
@@ -358,6 +356,9 @@ header {
 
 /* FIM - SLIDES */
 
+footer .fale_conosco {
+    padding: 10px;
+}
 
 .container-desktop {
     font-family: 'Jost', sans-serif;
@@ -446,52 +447,6 @@ footer .fale_conosco {
     transition: 1s
 }
 
-/*E-MAIL */
-.container-email {
-    display: none;
-    margin: 55px;
-    font-size: 18px;
-    font-family: 'Jost', sans-serif;
-    text-shadow: 1px 4px 1px black;
-    color: #fff;
-    background-color: #472d0e;
-    box-shadow: 1px 1px 4px 2px black;
-    width: 260px;
-    border-radius: 10px;
-}
-.contato-form input {
-    display: flex;
-    width: 245px;
-    margin: 5px;
-    
-}
-.formulario input[type=email] {
-    height: 30px;
-    box-shadow: 1px 1px 2px 2px black;
-}
-.contato-form input[type=text] {
-    height: 90px;
-    box-shadow: 1px 1px 2px 2px black;
-}
-
-.contato-form button {
-    margin-left: 80px;    
-}
-.contato-form button {
-    cursor: pointer;
-    background-color: white;
-    border: 1px solid black;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
-    box-shadow: 1px 3px 1px black;
-}
-button:hover {
-    scale: 1.1;
-    transition: 1s;
-    color: #fff;
-    background-color: rgb(48, 130, 171);
-}
 
 
 

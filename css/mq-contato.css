@@ -21,12 +21,6 @@
     .contato {
        display: none;
     }
-    
-   
-    
-    .titulo {
-        width: 100vw;
-    }
 
     .container {
         display: flex;
@@ -181,8 +175,6 @@
         text-shadow: 1px 3px 2px #060101;
     }
 
-    
-
     .container-formulario {
         padding: 1px;
         margin-left: 0px;
@@ -208,7 +200,7 @@
     }
 
     .form-mobile .formulario {
-        margin-left: 70px;
+        margin-left: 60px;
     }
 
     .formulario button {
@@ -221,23 +213,21 @@
     }
     
     .map iframe {
-        margin-left: 70px;
+        margin-left: 60px;
         display: flex;
         justify-content: center;
-        width: 350px;
+        width: 310px;
     }
     
     .map h2 {
-        margin-left: 70px;
-        width: 350px;
+        margin-left: 60px;
+        width: 310px;
         background-color: #a94141;
         text-shadow: 2px 2px 1px #060101;
         text-align: center;
         color: #fff;
     }
 
-    
- 
     .mobile-menu .nav-item {
        width: 100px; 
        height: 35px;
@@ -326,22 +316,15 @@
         width: 100vw;
     }
 
-
+   
     .whats {
         position: fixed;
-        bottom: 30px;
-        left: 400px;
+        bottom: 50px;
+        right: 30px;
         z-index: 9999;
-        border-radius: 10px;
     }
-    
-    
-    
-    .whats span {
-        display: none;
+
+    .whats-contato {
+         display: none;
     }
-    
-   
-    
- 
 }

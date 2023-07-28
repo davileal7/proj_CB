@@ -14,6 +14,8 @@
         width: 100vw;
         border: 1px solid #381f1f;
         height: 740px;
+        display: flex;
+        flex-direction: column;
     }
 
     .quem_somos {
@@ -141,14 +143,9 @@
         display: block;
     }
 
-    .container-email {
-        display: none;
-        margin-top: 410px;
-    }
-
     .titulo {
-        font-size: 40px;
-        height: 50px;
+        font-size: 25px;
+        height: 30px;
     }
 
     .slider {
