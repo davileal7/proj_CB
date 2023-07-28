@@ -8,7 +8,7 @@
     }
 
     .fundo_casa {
-        background: url('/img/casa-mobile.jpg');
+        background: url('/img/03construcao.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -22,13 +22,7 @@
        display: none;
     }
 
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        background: none;
-    }
+    
 
     footer .container-mobile {
         height: 310px;
@@ -200,7 +194,7 @@
     }
 
     .form-mobile .formulario {
-        margin-left: 60px;
+        margin-left: 45px;
     }
 
     .formulario button {
