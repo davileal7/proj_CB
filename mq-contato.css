@@ -171,7 +171,6 @@
         padding: 1px;
         margin-left: 0px;
         margin-top: 0px;
-        font-size: 18px;
         font-family: 'Jost', sans-serif;
         color: #a94141;
         height: 780px;
@@ -207,12 +206,13 @@
         margin-left: 10px;
         display: flex;
         justify-content: center;
-        width: 435px;
+        width: 390px;
     }
     
     .map h2 {
+        font-size: 18px;
         margin-left: 10px;
-        width: 435px;
+        width: 390px;
         background-color: #a94141;
         text-shadow: 2px 2px 1px #060101;
         text-align: center;
