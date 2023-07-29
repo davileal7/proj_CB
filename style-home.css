@@ -193,7 +193,7 @@ header {
 
 .fundo_casa .quem_somos {
     font-family: 'Lumanosimo', cursive;
-    text-shadow: 2px 2px 1px #060101;
+    text-shadow: 1px 2px 2px #060101;
     backdrop-filter: blur(8px);
     color: #fff;
     font-size: 34px;

@@ -24,12 +24,13 @@
     
     .quem-somos-mobile  {
         margin-top: 460px;
+        margin-left: 5px;
         color: #fff;
         display: flex;
         font-family: 'Lumanosimo', cursive;
         list-style: none;
         font-size: 22px;
-        text-shadow: 2px 2px 1px #060101;
+        text-shadow: 1px 2px 2px #060101;
     }
     
     .titulo {

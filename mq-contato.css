@@ -57,30 +57,30 @@
     }
 
     /*Opções Mobile */
-    .mobile-menu-icon {
+    .mobile-menu-icon2 {
         display: block;
     }
 
-    .mobile-menu-icon button {
+    .mobile-menu-icon2 button {
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
 
-    .mobile-menu ul {
+    .mobile-menu2 ul {
         display: flex;
         flex-direction: column;
     }
 
-    .mobile-menu {
+    .mobile-menu2 {
         width: 100%;
     }
 
-    .mobile-menu li {
+    .mobile-menu2 li {
         margin: 3px;
     }
 
-    .mobile-menu .nav-item {
+    .mobile-menu2 .nav-item {
         display: block;
         /*novo*/
         background-color: #060101;
@@ -103,7 +103,7 @@
         display: none;
     }
 
-    .mobile-menu .btn_pag {
+    .mobile-menu2 .btn_pag {
         margin: 10px;
         scale: 0.8;
     }
@@ -117,7 +117,7 @@
        scale: 1;
     }
 
-    .open {
+    .open2 {
         display: block;
     }
 
@@ -127,14 +127,14 @@
     }
 
     .contato {
-        font-size: 20px;
+        font-size: 22px;
         height: 170px;
         width: 390px;
-        border-radius: 5px;
         display: block;
         text-align: left;
         margin-top: 100px;
         backdrop-filter: none;
+        text-shadow: 1px 2px 2px #060101;
     }
 
     .contato p {
@@ -220,13 +220,13 @@
         color: #fff;
     }
 
-    .mobile-menu .nav-item {
+    .mobile-menu2 .nav-item {
        width: 100px; 
        height: 35px;
        background-color: #24252a;
     }
     
-    .mobile-menu .nav-item:hover {
+    .mobile-menu2 .nav-item:hover {
         background-color: #907a42;
         transition: 1.5s;
         scale: 1.1;
