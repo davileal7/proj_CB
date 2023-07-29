@@ -198,11 +198,15 @@ header {
     backdrop-filter: blur(10px);
     color: #fff;
     font-size: 26px;
-    height: 2220px;
+    height: 220px;
     width: 490px;
     border-radius: 5px;
     display: block;
     text-align: left;
+}
+
+.contato h2 {
+    font-family: 'Jost', sans-serif;
 }
 
 .contato p {

@@ -179,7 +179,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-       
     }
 
     .formulario h3 {
@@ -205,15 +204,15 @@
     }
     
     .map iframe {
-        margin-left: 60px;
+        margin-left: 10px;
         display: flex;
         justify-content: center;
-        width: 310px;
+        width: 435px;
     }
     
     .map h2 {
-        margin-left: 60px;
-        width: 310px;
+        margin-left: 10px;
+        width: 435px;
         background-color: #a94141;
         text-shadow: 2px 2px 1px #060101;
         text-align: center;
@@ -269,9 +268,9 @@
         text-align: center;
     }
 
-    .fale-conosco-mobile .redes-sociais-mobile {
+    /*.fale-conosco-mobile .redes-sociais-mobile {
         margin: 10px;
-    }
+    } */
 
     .fale-conosco-mobile ul li {
         display: flex;
@@ -308,7 +307,6 @@
         width: 100vw;
     }
 
-   
     .whats {
         position: fixed;
         bottom: 50px;
