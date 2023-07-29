@@ -8,7 +8,7 @@
     }
 
     .fundo_casa {
-        background: url('/img/casa-mobile.jpg');
+        background: url('img/03construcao.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -18,30 +18,8 @@
         flex-direction: column;
     }
 
-    .quem_somos {
+    .contato {
        display: none;
-    }
-    
-    .quem-somos-mobile  {
-        margin-top: 460px;
-        color: #fff;
-        display: flex;
-        font-family: 'Lumanosimo', cursive;
-        list-style: none;
-        font-size: 22px;
-        text-shadow: 2px 2px 1px #060101;
-    }
-    
-    .titulo {
-        width: 100vw;
-    }
-
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        background: none;
     }
 
     footer .container-mobile {
@@ -143,80 +121,105 @@
         display: block;
     }
 
-    .titulo {
-        font-size: 25px;
-        height: 30px;
-    }
-
-    .slider {
-        width: 400px;
-        height: 300px;
-        overflow: hidden;
-    }
-
-    .slides {
-        width: 400%;
-    }
-
-    .slides input {
+    .container-email {
         display: none;
+        margin-top: 410px;
     }
 
-    .slide {
-        width: 30%;
-        transition: 2s;
+    .contato {
+        font-size: 20px;
+        height: 170px;
+        width: 390px;
+        border-radius: 5px;
+        display: block;
+        text-align: left;
+        margin-top: 100px;
+        backdrop-filter: none;
     }
 
-    #radio1:checked ~ .first {
-        margin-left: 0;
+    .contato p {
+        margin:15px;
     }
-    #radio2:checked ~ .first {
-        margin-left: -30%;
-    }
-
-    #radio3:checked ~ .first {
-        margin-left: -60%;
-    }
-
-    #radio4:checked ~ .first {
-        margin-left: -85%;
-    }
-
-    #radio5:checked ~ .first {
-        margin-left: -115%;
-    }
-
-    #radio6:checked ~ .first {
-        margin-left: -150%;
-    }
-
-    #radio7:checked ~ .first {
-        margin-left: -180%;
-    }
-
-    #radio8:checked ~ .first {
-        margin-left: -210%;
-    }
-
-    .slide img {
-        height: 300px;
-        width: 450px;
-    }
-
-    .manual-navigation {
     
-        position: absolute;
-        width: 400px;
-        margin-top: -140px
+    .container-info {
+        display: block;
+        margin-top: 200px;
+        margin-left: 0px;
+        color: #fff;
+        text-shadow: 2px 3px 2px #060101;
+        backdrop-filter: none; 
+    }
+    
+    .container-info h2 {
+        text-align: center;
+        margin: 1px;
+    }
+    
+    .container-info ul li {
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+    }
+    
+    .container-info .localizacao:hover {
+        scale: 1.1;
+        transition: 0.5s;
+        text-shadow: 1px 3px 2px #060101;
     }
 
-    .navigation-auto {
-        
-        position: absolute;
-        width: 400px;
-        margin-top: 260px; 
+    .container-formulario {
+        padding: 1px;
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size: 18px;
+        font-family: 'Jost', sans-serif;
+        color: #a94141;
+        height: 780px;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
     }
- 
+
+    .formulario h3 {
+        margin-left: 100px;
+    }
+
+    .form-mobile {
+        margin-left: 0px;
+        margin: 15px;
+    }
+
+    .form-mobile .formulario {
+        margin-left: 45px;
+    }
+
+    .formulario button {
+        margin-left: 130px;
+    }
+
+    .map {
+        border: none;
+        margin-left: 0px;
+    }
+    
+    .map iframe {
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+        width: 310px;
+    }
+    
+    .map h2 {
+        margin-left: 60px;
+        width: 310px;
+        background-color: #a94141;
+        text-shadow: 2px 2px 1px #060101;
+        text-align: center;
+        color: #fff;
+    }
+
     .mobile-menu .nav-item {
        width: 100px; 
        height: 35px;
@@ -305,6 +308,7 @@
         width: 100vw;
     }
 
+   
     .whats {
         position: fixed;
         bottom: 50px;
