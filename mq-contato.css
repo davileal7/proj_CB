@@ -244,11 +244,11 @@
         display: none;
     }
 
-    .container-mobile {
+    footer .container-mobile {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: normal;
         font-family: 'Jost', sans-serif;
         text-shadow: 1px 2px 2px black;
         color: #fff;
@@ -256,16 +256,18 @@
         width: 100vw;
         text-decoration: none;
         border: 1px solid #381f1f;
+        height: 200px;
     }
 
     .container-mobile .fale-conosco-mobile {
-        margin-top: 25px;
+        margin-top: 15px;
+        margin-left: 5px;
     }
 
     .fale-conosco-mobile h2,
     .redes-sociais-mobile h2 {
         font-size: 18px;
-        text-align: center;
+        text-align: left;
     }
 
     /*.fale-conosco-mobile .redes-sociais-mobile {
@@ -274,7 +276,7 @@
 
     .fale-conosco-mobile ul li {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         margin: 5px;
     }
 
@@ -300,6 +302,11 @@
         transition: 1s;
     }
 
+    .logo-site-mobile {
+        display: flex;
+        width: 100vw;
+    }
+
     .logo-site-mobile h1{
         background-color: rgb(133, 53, 53);
         font-size: 18px;
@@ -310,6 +317,7 @@
     .whats {
         position: fixed;
         bottom: 50px;
+        right: 15px;
         height: 30px;
     }
 

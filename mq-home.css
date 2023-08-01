@@ -243,7 +243,7 @@
         display: none;
     }
 
-    .container-mobile {
+    footer .container-mobile {
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -255,10 +255,11 @@
         width: 100vw;
         text-decoration: none;
         border: 1px solid #381f1f;
+        height: 200px;
     }
 
     .container-mobile .fale-conosco-mobile {
-        margin-top: 25px;
+        margin-top: 15px;
         margin-left: 5px;
     }
 
@@ -272,6 +273,10 @@
         margin: 10px;
     } */
 
+    .fale-conosco-mobile ul {
+        margin: 10px;
+    }
+
     .fale-conosco-mobile ul li {
         display: flex;
         justify-content: left;
@@ -282,13 +287,22 @@
         font-size: 16px;
     }
 
+    .fale-conosco-mobile .logo a {
+        font-size: 11px;
+    }
+
     .fale-conosco-mobile li span {
         font-size: 11px;
     }
 
-    .fale-conosco-mobile .localizacao:hover{
-        scale: 1.1;
+    .fale-conosco-mobile .link:hover, 
+    .fale-conosco-mobile .link-face:hover {
+        scale: 1.05;
         transition: 1s;
+    }
+
+    .fale-conosco-mobile .link-face a {
+        font-size: 11px;
     }
 
     .redes-sociais-mobile li a {
@@ -300,7 +314,14 @@
         transition: 1s;
     }
 
+    .logo-site-mobile {
+        display: flex;
+        width: 100vw;
+    }
+
     .logo-site-mobile h1{
+        font-family: 'Jost', sans-serif;
+        color: #fff;
         background-color: rgb(133, 53, 53);
         font-size: 18px;
         text-align: center;

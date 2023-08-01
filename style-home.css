@@ -30,9 +30,9 @@ header {
     width: 100vw;
 }
 
-.logo-site {
+.logo-site h1 {
     text-shadow: 1px 2px 1px #060101;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 
 }
 
@@ -213,9 +213,9 @@ header {
     font-family: 'Jost', sans-serif;
     box-shadow: 1px 1px 5px  #464646;
     color: #fff;
-    height: 80px;
+    height: 60px;
     width: 100vw;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     border: 1px solid  #24252a;
 }
@@ -366,7 +366,7 @@ footer .fale_conosco {
     justify-content: space-between;
     color: #fff;
     background-color: rgb(194, 63, 43);
-    height: 350px;
+    height: 400px;
     width: 100vw;
     text-decoration: none;
     box-shadow: 1px 1px 5px  #464646;
@@ -390,7 +390,13 @@ footer .fale_conosco {
 
 .fale_conosco .localizacao:hover {
     scale: 1.1;
-    transition: 0.5s;
+    transition: 1s;
+    text-shadow: 1px 3px 2px #060101;
+}
+
+.fale_conosco .link-face:hover {
+    scale: 1.1;
+    transition: 1s;
     text-shadow: 1px 3px 2px #060101;
 }
 
@@ -401,7 +407,8 @@ footer .fale_conosco {
 }
 
 .logo a,
-.logo span {
+.logo span,
+.link-face a {
     margin: 5px;
     font-size: 16px;
 }
@@ -445,6 +452,10 @@ footer .fale_conosco {
 .whats:hover{ 
     scale: 1.1;
     transition: 1s
+}
+
+.logo-site-mobile {
+    display: none;
 }
 
 
