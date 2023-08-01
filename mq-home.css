@@ -246,7 +246,7 @@
     .container-mobile {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         font-family: 'Jost', sans-serif;
         text-shadow: 1px 2px 2px black;
@@ -264,7 +264,7 @@
     .fale-conosco-mobile h2,
     .redes-sociais-mobile h2 {
         font-size: 18px;
-        text-align: center;
+        text-align: left;
     }
 
     /* .fale-conosco-mobile .redes-sociais-mobile {
@@ -273,7 +273,7 @@
 
     .fale-conosco-mobile ul li {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         margin: 5px;
     }
 
@@ -328,6 +328,6 @@
     .whats span {
         font-size: 15px;
         position: relative;
-        bottom:32px;
+        bottom: 32px;
     }
 }
