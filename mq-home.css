@@ -260,7 +260,7 @@
 
     .container-mobile .fale-conosco-mobile {
         margin-top: 15px;
-        margin-left: 5px;
+        margin-left: 1px;
     }
 
     .fale-conosco-mobile h2,
@@ -274,13 +274,13 @@
     } */
 
     .fale-conosco-mobile ul {
-        margin: 10px;
+        margin: 2px;
     }
 
     .fale-conosco-mobile ul li {
         display: flex;
         justify-content: left;
-        margin: 5px;
+        margin: 6px;
     }
 
     .fale-conosco-mobile a {

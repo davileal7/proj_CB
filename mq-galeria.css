@@ -8,7 +8,7 @@
     }
 
     .fundo_casa {
-        background: url('img/03construcao.jpg');
+        background: url('img/casa-mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -18,8 +18,31 @@
         flex-direction: column;
     }
 
-    .contato {
+    .quem_somos {
        display: none;
+    }
+    
+    .quem-somos-mobile  {
+        margin-top: 460px;
+        margin-left: 5px;
+        color: #fff;
+        display: flex;
+        font-family: 'Lumanosimo', cursive;
+        list-style: none;
+        font-size: 22px;
+        text-shadow: 1px 2px 2px #060101;
+    }
+    
+    .titulo {
+        width: 100vw;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        background: none;
     }
 
     footer .container-mobile {
@@ -57,30 +80,30 @@
     }
 
     /*Opções Mobile */
-    .mobile-menu-icon2 {
+    .mobile-menu-icon {
         display: block;
     }
 
-    .mobile-menu-icon2 button {
+    .mobile-menu-icon button {
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
 
-    .mobile-menu2 ul {
+    .mobile-menu ul {
         display: flex;
         flex-direction: column;
     }
 
-    .mobile-menu2 {
+    .mobile-menu {
         width: 100%;
     }
 
-    .mobile-menu2 li {
+    .mobile-menu li {
         margin: 3px;
     }
 
-    .mobile-menu2 .nav-item {
+    .mobile-menu .nav-item {
         display: block;
         /*novo*/
         background-color: #060101;
@@ -103,7 +126,7 @@
         display: none;
     }
 
-    .mobile-menu2 .btn_pag {
+    .mobile-menu .btn_pag {
         margin: 10px;
         scale: 0.8;
     }
@@ -117,115 +140,91 @@
        scale: 1;
     }
 
-    .open2 {
+    .open {
         display: block;
     }
 
-    .container-email {
+    .titulo {
+        font-size: 25px;
+        height: 30px;
+    }
+
+    .slider {
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .slides {
+        width: 400%;
+    }
+
+    .slides input {
         display: none;
-        margin-top: 410px;
     }
 
-    .contato {
-        font-size: 22px;
-        height: 170px;
-        width: 390px;
-        display: block;
-        text-align: left;
-        margin-top: 100px;
-        backdrop-filter: none;
-        text-shadow: 1px 2px 2px #060101;
+    .slide {
+        width: 30%;
+        transition: 2s;
     }
 
-    .contato p {
-        margin:15px;
+    #radio1:checked ~ .first {
+        margin-left: 0;
     }
+    #radio2:checked ~ .first {
+        margin-left: -30%;
+    }
+
+    #radio3:checked ~ .first {
+        margin-left: -60%;
+    }
+
+    #radio4:checked ~ .first {
+        margin-left: -85%;
+    }
+
+    #radio5:checked ~ .first {
+        margin-left: -115%;
+    }
+
+    #radio6:checked ~ .first {
+        margin-left: -150%;
+    }
+
+    #radio7:checked ~ .first {
+        margin-left: -180%;
+    }
+
+    #radio8:checked ~ .first {
+        margin-left: -210%;
+    }
+
+    .slide img {
+        height: 300px;
+        width: 450px;
+    }
+
+    .manual-navigation {
     
-    .container-info {
-        display: block;
-        margin-top: 200px;
-        margin-left: 0px;
-        color: #fff;
-        text-shadow: 2px 3px 2px #060101;
-        backdrop-filter: none; 
-    }
-    
-    .container-info h2 {
-        text-align: center;
-        margin: 1px;
-    }
-    
-    .container-info ul li {
-        display: flex;
-        justify-content: center;
-        margin: 15px;
-    }
-    
-    .container-info .localizacao:hover {
-        scale: 1.1;
-        transition: 0.5s;
-        text-shadow: 1px 3px 2px #060101;
+        position: absolute;
+        width: 400px;
+        margin-top: -140px
     }
 
-    .container-formulario {
-        padding: 1px;
-        margin-left: 0px;
-        margin-top: 0px;
-        font-family: 'Jost', sans-serif;
-        color: #a94141;
-        height: 780px;
-        width: 260px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .navigation-auto {
+        
+        position: absolute;
+        width: 400px;
+        margin-top: 260px; 
     }
-
-    .formulario h3 {
-        margin-left: 100px;
-    }
-
-    .form-mobile {
-        margin-left: 0px;
-        margin: 15px;
-    }
-
-    .form-mobile .formulario {
-        margin-left: 45px;
-    }
-
-    .formulario button {
-        margin-left: 130px;
-    }
-
-    .map {
-        border: none;
-        margin-left: 0px;
-    }
-    
-    .map iframe {
-        margin-left: 10px;
-        display: flex;
-        justify-content: center;
-        width: 390px;
-    }
-    
-    .map h2 {
-        font-size: 18px;
-        margin-left: 10px;
-        width: 390px;
-        background-color: #a94141;
-        text-shadow: 2px 2px 1px #060101;
-        text-align: center;
-        color: #fff;
-    }
-
-    .mobile-menu2 .nav-item {
+ 
+    .mobile-menu .nav-item {
        width: 100px; 
        height: 35px;
        background-color: #24252a;
     }
     
-    .mobile-menu2 .nav-item:hover {
+    .mobile-menu .nav-item:hover {
         background-color: #907a42;
         transition: 1.5s;
         scale: 1.1;
@@ -270,7 +269,7 @@
         text-align: left;
     }
 
-    /*.fale-conosco-mobile .redes-sociais-mobile {
+    /* .fale-conosco-mobile .redes-sociais-mobile {
         margin: 10px;
     } */
 
@@ -288,13 +287,22 @@
         font-size: 16px;
     }
 
+    .fale-conosco-mobile .logo a {
+        font-size: 11px;
+    }
+
     .fale-conosco-mobile li span {
         font-size: 11px;
     }
 
-    .fale-conosco-mobile .localizacao:hover{
-        scale: 1.1;
+    .fale-conosco-mobile .link:hover, 
+    .fale-conosco-mobile .link-face:hover {
+        scale: 1.05;
         transition: 1s;
+    }
+
+    .fale-conosco-mobile .link-face a {
+        font-size: 11px;
     }
 
     .redes-sociais-mobile li a {
@@ -324,8 +332,8 @@
         position: fixed;
         bottom: 50px;
         right: 5px;
+        z-index: 9999;
         height: 30px;
-        
     }
 
     .whats img {
@@ -338,13 +346,12 @@
         color: #fff;
         font-family: 'Jost', sans-serif;
         text-shadow: 1px 1px 1px #24252a;
-        
     }
 
     .whats span {
         font-size: 15px;
         position: relative;
-        bottom:32px;
+        bottom: 32px;
         right: 15px;
     }
 }
