@@ -440,6 +440,7 @@ footer .fale_conosco {
 .whats span {
     position: relative;
     bottom: 15px;
+    right:5px;
 }
 
 .whats-contato {
