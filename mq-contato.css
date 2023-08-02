@@ -308,6 +308,8 @@
     }
 
     .logo-site-mobile h1{
+        font-family: 'Jost', sans-serif;
+        color: #fff;
         background-color: rgb(133, 53, 53);
         font-size: 18px;
         text-align: center;
@@ -317,7 +319,7 @@
     .whats {
         position: fixed;
         bottom: 50px;
-        right: 15px;
+        right: 5px;
         height: 30px;
     }
 
@@ -331,6 +333,7 @@
         color: #fff;
         font-family: 'Jost', sans-serif;
         text-shadow: 1px 1px 1px #24252a;
+        
     }
 
     .whats span {
