@@ -27,7 +27,7 @@
         margin-left: 5px;
         color: #fff;
         display: flex;
-        font-family: 'Lumanosimo', cursive;
+        font-family: 'Jost', sans-serif;
         list-style: none;
         font-size: 22px;
         text-shadow: 1px 2px 2px #060101;
@@ -332,14 +332,13 @@
         position: fixed;
         bottom: 50px;
         right: 5px;
-        z-index: 9999;
-        height: 30px;
+        height: 35px;
     }
 
     .whats img {
         position: relative;
-        bottom: 10px;
-        padding: 14px;
+        bottom: 8px;
+        padding: 10px;
     }
 
     .whats-contato {
@@ -351,7 +350,7 @@
     .whats span {
         font-size: 15px;
         position: relative;
-        bottom: 32px;
+        bottom: 30px;
         right: 15px;
     }
 }

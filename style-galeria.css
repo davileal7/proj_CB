@@ -182,7 +182,7 @@ header {
 }
 
 .galeria {
-    height: 695px;
+    height: 650px;
     width: 100vw;
     border: 1px solid black;
 }
@@ -194,18 +194,14 @@ header {
     box-shadow: 1px 2px 2px black;
 }
 
-img {
-    transition: 1s;
-}
-
 .titulo {
     background-color: #24252a;
     font-family: 'Jost', sans-serif;
     box-shadow: 1px 1px 5px  #464646;
     color: #fff;
-    height: 60px;
+    height: 30px;
     width: 100vw;
-    font-size: 50px;
+    font-size: 1.5rem;
     text-align: center;
     border: 1px solid  #24252a;
 }
@@ -223,11 +219,18 @@ img {
     box-shadow: 1px 2px 2px black;
 }
 
-
-
+/*
 .imagens:hover > :not(:hover) {
-    scale: 0.9; /*diminui a imagem*/
-    opacity: 0.3; /*tira a cor*/
+    scale: 0.9; 
+    opacity: 0.3; 
+} */
+
+img:hover {
+    scale: 1.05; 
+}
+
+img {
+    transition: 1s;
 }
 
 
@@ -239,15 +242,9 @@ img {
     display: none;
 }
 
-
-
-
 .quem-somos-mobile {
     display: none;
 }
-
-
-
 
 
 footer .fale_conosco {
@@ -264,11 +261,6 @@ footer .fale_conosco {
     width: 100vw;
     text-decoration: none;
     box-shadow: 1px 1px 5px  #464646;
-}
-
-footer .fale_conosco {
-    padding: 10px;
-
 }
 
 .fale_conosco, 

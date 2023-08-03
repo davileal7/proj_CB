@@ -60,7 +60,6 @@ header {
     justify-content: space-between;
     padding: 1.5rem 6rem;
     border: 1px solid #060101;
-
 }
 
 .navbar .btn_pag {
@@ -192,13 +191,13 @@ header {
 }
 
 .fundo_casa .quem_somos {
-    font-family: 'Lumanosimo', cursive;
+    font-family: 'Jost', sans-serif;
     text-shadow: 1px 2px 2px #060101;
     backdrop-filter: blur(8px);
     color: #fff;
-    font-size: 34px;
+    font-size: 26px;
     margin-left: 40px;
-    height: 160px;
+    height: 110px;
     width: 650px;
     border-radius: 1px;
     text-align: center;
@@ -213,9 +212,9 @@ header {
     font-family: 'Jost', sans-serif;
     box-shadow: 1px 1px 5px  #464646;
     color: #fff;
-    height: 60px;
+    height: 35px;
     width: 100vw;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     border: 1px solid  #24252a;
 }
