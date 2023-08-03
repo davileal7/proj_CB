@@ -134,11 +134,11 @@ header {
     gap: 2rem;
 }
 
-.mobile-menu-icon {
+.mobile-menu-icon3 {
     display: none;
 }
 
-.mobile-menu {
+.mobile-menu3 {
     display: none;
     font-family: 'Jost', sans-serif;
 }
@@ -160,7 +160,7 @@ header {
     transition: 1s;
 }
 
-.mobile-menu {
+.mobile-menu3 {
     position: absolute;
     width: 300px;
     background-color: #24252a;
@@ -168,14 +168,14 @@ header {
     transition: 1s;
 }
 
-.mobile-menu ul {
+.mobile-menu3 ul {
     font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.mobile-menu .btn_pag {
+.mobile-menu3 .btn_pag {
     width: 200px;
     display: flex;
     justify-content: center;
@@ -231,6 +231,13 @@ img {
 }
 
 
+.galeria-mobile {
+    display: none;
+}
+
+.imagens-mobile {
+    display: none;
+}
 
 
 

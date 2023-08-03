@@ -7,30 +7,69 @@
       position: fixed;       
     }
 
-    .fundo_casa {
-        background: url('img/casa-mobile.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100vw;
-        border: 1px solid #381f1f;
-        height: 740px;
+     .nav-item:hover::after {
+         transform: none;
+     }
+ 
+     .nav-item::after {
+         background-color: transparent;
+         transform: none;
+     }
+
+     .mobile-menu3 .nav-item {
+        width: 100px; 
+        height: 35px;
+        background-color: #24252a;
+     }
+     
+     .mobile-menu3 .nav-item:hover {
+         background-color: #907a42;
+         transition: 1.5s;
+         scale: 1.1;
+     }
+
+
+
+    .galeria-mobile .img01 {
+        margin-top: 70px;
+    }
+
+    .galeria {
+        display: none;
+    }
+
+    .imagens {
+        display: none;
+    }
+
+    .galeria-mobile {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+    
+    .imagens-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .imagens-mobile img {
+        height: 250px;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 1px 2px 2px black;
+        margin: 5px;
+    }
+
+
+
+
+
+
 
     .quem_somos {
        display: none;
-    }
-    
-    .quem-somos-mobile  {
-        margin-top: 460px;
-        margin-left: 5px;
-        color: #fff;
-        display: flex;
-        font-family: 'Lumanosimo', cursive;
-        list-style: none;
-        font-size: 22px;
-        text-shadow: 1px 2px 2px #060101;
     }
     
     .titulo {
@@ -80,30 +119,30 @@
     }
 
     /*Opções Mobile */
-    .mobile-menu-icon {
+    .mobile-menu-icon3 {
         display: block;
     }
 
-    .mobile-menu-icon button {
+    .mobile-menu-icon3 button {
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
 
-    .mobile-menu ul {
+    .mobile-menu3 ul {
         display: flex;
         flex-direction: column;
     }
 
-    .mobile-menu {
+    .mobile-menu3 {
         width: 100%;
     }
 
-    .mobile-menu li {
+    .mobile-menu3 li {
         margin: 3px;
     }
 
-    .mobile-menu .nav-item {
+    .mobile-menu3 .nav-item {
         display: block;
         /*novo*/
         background-color: #060101;
@@ -126,7 +165,7 @@
         display: none;
     }
 
-    .mobile-menu .btn_pag {
+    .mobile-menu3 .btn_pag {
         margin: 10px;
         scale: 0.8;
     }
@@ -140,7 +179,7 @@
        scale: 1;
     }
 
-    .open {
+    .open3 {
         display: block;
     }
 
@@ -149,96 +188,7 @@
         height: 30px;
     }
 
-    .slider {
-        width: 400px;
-        height: 300px;
-        overflow: hidden;
-    }
-
-    .slides {
-        width: 400%;
-    }
-
-    .slides input {
-        display: none;
-    }
-
-    .slide {
-        width: 30%;
-        transition: 2s;
-    }
-
-    #radio1:checked ~ .first {
-        margin-left: 0;
-    }
-    #radio2:checked ~ .first {
-        margin-left: -30%;
-    }
-
-    #radio3:checked ~ .first {
-        margin-left: -60%;
-    }
-
-    #radio4:checked ~ .first {
-        margin-left: -85%;
-    }
-
-    #radio5:checked ~ .first {
-        margin-left: -115%;
-    }
-
-    #radio6:checked ~ .first {
-        margin-left: -150%;
-    }
-
-    #radio7:checked ~ .first {
-        margin-left: -180%;
-    }
-
-    #radio8:checked ~ .first {
-        margin-left: -210%;
-    }
-
-    .slide img {
-        height: 300px;
-        width: 450px;
-    }
-
-    .manual-navigation {
     
-        position: absolute;
-        width: 400px;
-        margin-top: -140px
-    }
-
-    .navigation-auto {
-        
-        position: absolute;
-        width: 400px;
-        margin-top: 260px; 
-    }
- 
-    .mobile-menu .nav-item {
-       width: 100px; 
-       height: 35px;
-       background-color: #24252a;
-    }
-    
-    .mobile-menu .nav-item:hover {
-        background-color: #907a42;
-        transition: 1.5s;
-        scale: 1.1;
-    }
-
-    .nav-item:hover::after {
-        transform: none;
-    }
-
-    .nav-item::after {
-        background-color: transparent;
-        transform: none;
-    }
-
     .container-desktop {
         display: none;
     }
