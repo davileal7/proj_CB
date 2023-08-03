@@ -260,7 +260,7 @@
     }
 
     .container-mobile .fale-conosco-mobile {
-        margin-top: 15px;
+        margin-top: 25px;
         margin-left: 1px;
     }
 
@@ -281,20 +281,29 @@
     .fale-conosco-mobile ul li {
         display: flex;
         justify-content: left;
-        margin: 5px;
+        margin: 6px;
     }
 
     .fale-conosco-mobile a {
         font-size: 16px;
     }
 
+    .fale-conosco-mobile .logo a {
+        font-size: 11px;
+    }
+
     .fale-conosco-mobile li span {
         font-size: 11px;
     }
 
-    .fale-conosco-mobile .localizacao:hover{
-        scale: 1.1;
+    .fale-conosco-mobile .localizacao:hover, 
+    .fale-conosco-mobile .link-face:hover{
+        scale: 1.05;
         transition: 1s;
+    }
+
+    .fale-conosco-mobile .link-face a {
+        font-size: 11px;
     }
 
     .redes-sociais-mobile li a {

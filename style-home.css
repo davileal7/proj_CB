@@ -374,7 +374,6 @@ footer .fale_conosco {
 
 footer .fale_conosco {
     padding: 10px;
-
 }
 
 .fale_conosco, 
@@ -409,7 +408,7 @@ footer .fale_conosco {
 .logo a,
 .logo span,
 .link-face a {
-    margin: 5px;
+    margin: 2px;
     font-size: 16px;
 }
 
