@@ -195,6 +195,8 @@
 
     .formulario button {
         margin-left: 130px;
+        color: #fff;
+        background-color: #a94141;
     }
 
     .map {
@@ -331,7 +333,7 @@
 
     .whats {
         position: fixed;
-        bottom: 50px;
+        bottom: 40px;
         right: 5px;
         height: 35px;
     }

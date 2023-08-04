@@ -23,6 +23,7 @@
     }
     
     .quem-somos-mobile  {
+        
         margin-top: 460px;
         margin-left: 5px;
         color: #fff;
@@ -330,7 +331,7 @@
 
     .whats {
         position: fixed;
-        bottom: 50px;
+        bottom: 30px;
         right: 5px;
         height: 35px;
     }
