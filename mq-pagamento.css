@@ -1,0 +1,299 @@
+/* RESPONSIVE DESIGN */
+@media(max-width: 730px) 
+
+{
+    /* Container Principais */
+    header {
+      position: fixed;       
+    }
+
+     .nav-item:hover::after {
+         transform: none;
+     }
+ 
+     .nav-item::after {
+         background-color: transparent;
+         transform: none;
+     }
+
+     .mobile-menu3 .nav-item {
+        width: 100px; 
+        height: 35px;
+        background-color: #24252a;
+     }
+     
+     .mobile-menu3 .nav-item:hover {
+         background-color: #907a42;
+         transition: 1.5s;
+         scale: 1.1;
+     }
+
+    
+     .container-pag {
+        display: none;
+     }
+
+     .container-info {
+        display: none;
+     }
+
+     .container-pag-mobile {
+        background: url('img/fundo-contato-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        border: 1px solid #381f1f;
+        height: 740px;
+        display: flex;
+              
+     }
+
+     .container-info-mobile {
+        margin-top: 100px;
+        margin-left: 0px;
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        list-style: none;
+        font-size: 20px;
+        text-shadow: 1px 2px 2px #060101;
+     } 
+
+     .container-info-mobile h1 {
+        font-size: 25px;
+     }
+
+     .container-info-mobile  p {
+        margin-top: 20px;
+    }
+    
+    .container-info-mobile  ul {
+        margin-top: 65px;
+    }
+    
+    .container-info-mobile li {
+        text-align: left;
+        margin-left: 60px;
+    }
+    
+    .titulo {
+        width: 100vw;
+    }
+
+    footer .container-mobile {
+        height: 310px;
+        width: 100vw;
+    }
+     /* fim Container Principais */
+    
+    .navbar {
+        padding: 25px;
+    }
+
+    .logo-site h1 {
+        font-size: 18px;
+    }
+
+    .logo-site span {
+        position: relative;
+        bottom: 7px;
+        left: 2px;
+    }
+
+    .logo-site-mobile span {
+        position: relative;
+        bottom: 7px;
+        left: 2px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .btn_pag {
+        display: none;
+    }
+
+    /*Opções Mobile */
+    .mobile-menu-icon3 {
+        display: block;
+    }
+
+    .mobile-menu-icon3 button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu3 ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu3 {
+        width: 100%;
+    }
+
+    .mobile-menu3 li {
+        margin: 3px;
+    }
+
+    .mobile-menu3 .nav-item {
+        display: block;
+        /*novo*/
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    li .nav-link  {
+        height: 35px;
+    }
+
+    .nav-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    /*FIM - Opções Mobile */
+
+    .navbar02 {
+        display: none;
+    }
+
+    .mobile-menu3 .btn_pag {
+        margin: 10px;
+        scale: 0.8;
+    }
+
+    .btn_pag a {
+        font-size: 16px;
+        color: #060101;
+    }
+
+    .btn_pag:hover {
+       scale: 1;
+    }
+
+    .open3 {
+        display: block;
+    }
+
+    .titulo {
+        font-size: 25px;
+        height: 30px;
+    }
+
+    .container-desktop {
+        display: none;
+    }
+
+    footer .container-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: normal;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 2px 2px black;
+        color: #fff;
+        background-color: rgb(194, 63, 43);
+        width: 100vw;
+        text-decoration: none;
+        border: 1px solid #381f1f;
+        height: 200px;
+    }
+
+    .container-mobile .fale-conosco-mobile {
+        margin-top: 15px;
+        margin-left: 1px;
+    }
+
+    .fale-conosco-mobile h2,
+    .redes-sociais-mobile h2 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    /* .fale-conosco-mobile .redes-sociais-mobile {
+        margin: 10px;
+    } */
+
+    .fale-conosco-mobile ul {
+        margin: 2px;
+    }
+
+    .fale-conosco-mobile ul li {
+        display: flex;
+        justify-content: left;
+        margin: 5px;
+    }
+
+    .fale-conosco-mobile a {
+        font-size: 16px;
+    }
+
+    .fale-conosco-mobile .logo a {
+        font-size: 11px;
+    }
+
+    .fale-conosco-mobile li span {
+        font-size: 11px;
+    }
+
+    .fale-conosco-mobile .link:hover, 
+    .fale-conosco-mobile .link-face:hover {
+        scale: 1.05;
+        transition: 1s;
+    }
+
+    .fale-conosco-mobile .link-face a {
+        font-size: 11px;
+    }
+
+    .redes-sociais-mobile li a {
+        font-size: 11px;
+    }
+
+    .redes-sociais-mobile li:hover {
+        scale: 1.1;
+        transition: 1s;
+    }
+
+    .logo-site-mobile {
+        display: flex;
+        width: 100vw;
+    }
+
+    .logo-site-mobile h1{
+        font-family: 'Jost', sans-serif;
+        color: #fff;
+        background-color: rgb(133, 53, 53);
+        font-size: 18px;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .whats {
+        position: fixed;
+        bottom: 30px;
+        right: 5px;
+        height: 35px;
+    }
+
+    .whats img {
+        position: relative;
+        bottom: 8px;
+        padding: 10px;
+    }
+
+    .whats-contato {
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 1px 1px #24252a;
+    }
+
+    .whats span {
+        font-size: 15px;
+        position: relative;
+        bottom: 30px;
+        right: 15px;
+    }
+}

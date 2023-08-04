@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+/*quem somos */
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+header {
+    font-family: 'Jost', sans-serif;
+    background-color: #24252a;
+    box-shadow: 1px 1px 5px  #464646;
+    width: 100vw;
+}
+
+.logo-site h1 {
+    text-shadow: 1px 2px 1px #060101;
+    font-size: 1.5rem;
+
+}
+
+.logo-site span {
+    position: relative;
+    bottom: 5px;
+    left: 2px;
+}
+
+.logo-img {
+    height: 35px;
+}
+
+.navbar h1 span {
+    color: #fff;
+}
+
+.navbar h1 span {
+    margin: 1px;
+    padding: 2px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    border: 1px solid #060101;
+
+}
+
+.navbar .btn_pag {
+    color: #060101;
+}
+
+.logo {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav-item {
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-item::after {
+    content: " ";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(255, 248, 248);
+    transition: 0.5s ease-in-out;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+
+.nav-item:hover::after {
+    transform: scaleX(1);
+}
+
+.navbar02 {
+    background-color: rgb(194, 63, 43);
+    color: wheat;
+    font-size: 1.2em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+.navbar02 .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.mobile-menu-icon3 {
+    display: none;
+}
+
+.mobile-menu3 {
+    display: none;
+    font-family: 'Jost', sans-serif;
+}
+
+.btn_pag {
+    background-color: orange;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn_pag:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+
+.mobile-menu3 {
+    position: absolute;
+    width: 300px;
+    background-color: #24252a;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.mobile-menu3 ul {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-menu3 .btn_pag {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    background-color: #24252a;
+    font-family: 'Jost', sans-serif;
+    box-shadow: 1px 1px 5px  #464646;
+    color: #fff;
+    height: 30px;
+    width: 100vw;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid  #24252a;
+}
+
+.container-pag-mobile {
+    display: none;
+} 
+
+.container-pag {
+    background: url('/img/pagamento-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100vw;
+   
+}
+
+.container-info {
+    font-family: 'Jost', sans-serif;
+    text-shadow: 1px 2px 2px #060101;
+    backdrop-filter: contrast(60%);
+    color: #fff;
+    font-size: 25px;
+    margin-left: 40px;
+    height: 300px;
+    width: 670px;
+    border-radius: 1px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.container-info  p {
+    margin-top: 10px;
+}
+
+.container-info  ul {
+    margin-top: 20px;
+}
+
+.container-info li {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.icons span {
+    margin: 5px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.imagens img {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px black;
+}
+
+/*
+.imagens:hover > :not(:hover) {
+    scale: 0.9; 
+    opacity: 0.3; 
+} */
+
+img:hover {
+    scale: 1.05; 
+}
+
+img {
+    transition: 1s;
+}
+
+.galeria-mobile {
+    display: none;
+}
+
+.imagens-mobile {
+    display: none;
+}
+
+.quem-somos-mobile {
+    display: none;
+}
+
+footer .fale_conosco {
+    padding: 10px;
+}
+
+.container-desktop {
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgb(194, 63, 43);
+    height: 400px;
+    width: 100vw;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px  #464646;
+   
+}
+
+.fale_conosco, 
+.redes_sociais  {
+    text-shadow: 1px 2px 1px #060101;
+    margin: 3px;
+}
+
+.fale_conosco li {
+    margin: 15px;
+    padding: 5px;
+}
+
+.fale_conosco .localizacao:hover {
+    scale: 1.1;
+    transition: 1s;
+    text-shadow: 1px 3px 2px #060101;
+}
+
+.fale_conosco .link-face:hover {
+    scale: 1.1;
+    transition: 1s;
+    text-shadow: 1px 3px 2px #060101;
+}
+
+.redes_sociais li {
+    padding: 10px;
+    margin-right: 450px;
+    margin-top: 10px;
+}
+
+.logo a,
+.logo span,
+.link-face a {
+    margin: 5px;
+    font-size: 16px;
+}
+
+.redes_sociais li:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.container-mobile {
+    display: none;
+}
+
+.whats {
+    box-shadow: 1px 1px 1px 1px black;
+    background-color:rgb(0, 231, 119) ;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    z-index: 9999;
+    border-radius: 10px;
+}
+
+.whats img {
+    margin: 1px;
+    padding: 1px;
+}
+
+.whats span {
+    position: relative;
+    bottom: 15px;
+    right:5px;
+}
+
+.whats-contato {
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    text-shadow: 1px 1px 1px #24252a;
+    padding: 5px;
+}
+
+.whats:hover{ 
+    scale: 1.1;
+    transition: 1s
+}
+
+.logo-site-mobile {
+    display: none;
+}
+
+
+
+

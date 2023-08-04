@@ -193,6 +193,7 @@ header {
 }
 
 .contato {
+    font-family: 'Jost', sans-serif;
     text-shadow: 1px 2px 2px #060101;
     backdrop-filter: blur(10px);
     color: #fff;
@@ -202,10 +203,6 @@ header {
     border-radius: 1px;
     display: block;
     text-align: justify;
-}
-
-.contato h2 {
-    font-family: 'Jost', sans-serif;
 }
 
 .contato p {
@@ -218,7 +215,7 @@ header {
     text-shadow: 2px 3px 2px #060101;
 }
 
-.container-info h2 {
+.container-info h1 {
     text-align: center;
     margin: 10px;
 }
