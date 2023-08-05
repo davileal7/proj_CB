@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
 }
 
 /*navbar*/
@@ -22,7 +23,7 @@ a {
     font-size: 20px;
 }
 header {
-    font-family: 'Jost', sans-serif;
+  
     background-color: #24252a;
     box-shadow: 1px 1px 5px  #464646;
     width: 100vw;
@@ -117,7 +118,6 @@ header {
 }
 .mobile-menu {
     display: none;
-    font-family: 'Jost', sans-serif;
 }
 .btn_pag {
     background-color: orange;
@@ -162,7 +162,6 @@ header {
     display: flex;
 }
 .fundo_casa .quem_somos {
-    font-family: 'Jost', sans-serif;
     text-shadow: 1px 2px 2px #060101;
     backdrop-filter: blur(8px);
     box-shadow: 1px 1px 3px black;
@@ -310,7 +309,6 @@ footer .fale_conosco {
     padding: 10px;
 }
 .container-desktop {
-    font-family: 'Jost', sans-serif;
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -375,7 +373,6 @@ footer .fale_conosco {
 }
 .whats-contato {
     color: #fff;
-    font-family: 'Jost', sans-serif;
     text-shadow: 1px 1px 1px #24252a;
 }
 .whats:hover{ 
