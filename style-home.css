@@ -194,13 +194,18 @@ header {
     font-family: 'Jost', sans-serif;
     text-shadow: 1px 2px 2px #060101;
     backdrop-filter: blur(8px);
+    box-shadow: 1px 1px 3px black;
     color: #fff;
-    font-size: 26px;
-    margin-left: 40px;
-    height: 110px;
-    width: 650px;
+    font-size: 25px;
+    height: 160px;
+    width: 470px;
     border-radius: 1px;
-    text-align: center;
+    text-align: justify;
+}
+
+.quem_somos ul {
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
 .quem-somos-mobile {

@@ -134,6 +134,7 @@
         margin-top: 100px;
         backdrop-filter: none;
         text-shadow: 1px 2px 2px #060101;
+        box-shadow: none;
     }
 
     .contato h1 {

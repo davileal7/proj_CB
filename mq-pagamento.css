@@ -62,6 +62,18 @@
         font-size: 25px;
      }
 
+     #icon-pag-mobile {
+        margin: 2px;
+        color: #65f37b;
+        border-radius: 5px;
+    }
+    
+
+     .container-info-mobile span {
+        position: relative;
+        bottom: 5px;
+     }
+
      .container-info-mobile  p {
         margin-top: 20px;
     }
