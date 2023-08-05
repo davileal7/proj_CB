@@ -257,7 +257,7 @@ footer .fale_conosco {
     justify-content: space-between;
     color: #fff;
     background-color: rgb(194, 63, 43);
-    height: 400px;
+    height: 330px;
     width: 100vw;
     text-decoration: none;
     box-shadow: 1px 1px 5px  #464646;
@@ -271,7 +271,7 @@ footer .fale_conosco {
 
 .fale_conosco li {
     margin: 15px;
-    padding: 5px;
+    padding: 1px;
 }
 
 .fale_conosco .localizacao:hover {
@@ -295,7 +295,7 @@ footer .fale_conosco {
 .logo a,
 .logo span,
 .link-face a {
-    margin: 5px;
+    margin: 2px;
     font-size: 16px;
 }
 
@@ -333,7 +333,6 @@ footer .fale_conosco {
     color: #fff;
     font-family: 'Jost', sans-serif;
     text-shadow: 1px 1px 1px #24252a;
-    padding: 5px;
 }
 
 .whats:hover{ 

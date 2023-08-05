@@ -68,12 +68,6 @@
         border-radius: 5px;
     }
     
-
-     .container-info-mobile span {
-        position: relative;
-        bottom: 5px;
-     }
-
      .container-info-mobile  p {
         margin-top: 20px;
     }
@@ -214,7 +208,7 @@
     }
 
     .container-mobile .fale-conosco-mobile {
-        margin-top: 15px;
+        margin-top: 25px;
         margin-left: 1px;
     }
 
@@ -224,10 +218,6 @@
         text-align: left;
     }
 
-    /* .fale-conosco-mobile .redes-sociais-mobile {
-        margin: 10px;
-    } */
-
     .fale-conosco-mobile ul {
         margin: 2px;
     }
@@ -235,15 +225,11 @@
     .fale-conosco-mobile ul li {
         display: flex;
         justify-content: left;
-        margin: 5px;
+        margin: 6px;
     }
 
     .fale-conosco-mobile a {
         font-size: 16px;
-    }
-
-    .fale-conosco-mobile .logo a {
-        font-size: 11px;
     }
 
     .fale-conosco-mobile li span {

@@ -276,10 +276,6 @@
         text-align: left;
     }
 
-    /*.fale-conosco-mobile .redes-sociais-mobile {
-        margin: 10px;
-    } */
-
     .fale-conosco-mobile ul {
         margin: 2px;
     }
@@ -292,10 +288,6 @@
 
     .fale-conosco-mobile a {
         font-size: 16px;
-    }
-
-    .fale-conosco-mobile .logo a {
-        font-size: 11px;
     }
 
     .fale-conosco-mobile li span {

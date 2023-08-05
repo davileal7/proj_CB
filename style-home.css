@@ -16,89 +16,72 @@
 li {
     list-style: none;
 }
-
 a {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
 }
-
 header {
     font-family: 'Jost', sans-serif;
     background-color: #24252a;
     box-shadow: 1px 1px 5px  #464646;
     width: 100vw;
 }
-
 .logo-site h1 {
     text-shadow: 1px 2px 1px #060101;
     font-size: 1.5rem;
-
 }
-
 .logo-site span {
     position: relative;
     bottom: 5px;
     left: 2px;
 }
-
 .logo-img {
     height: 35px;
 }
-
 .navbar h1 span {
     color: #fff;
 }
-
 .navbar h1 span {
     margin: 1px;
     padding: 2px;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
     border: 1px solid #060101;
 }
-
 .navbar .btn_pag {
     color: #060101;
 }
-
 .logo {
     font-size: 1em;
     display: flex;
     align-items: center;
 }
-
 .nav-list {
     display: flex;
     align-items: center;
 }
-
 .nav-list ul {
     display: flex;
     justify-content: center;
 }
-
 .nav-item {
     margin: 0 15px;
 }
-
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
     color: #fff;
     font-weight: 400;
 }
-
 .nav-item {
     width: max-content;
     position: relative;
     cursor: pointer;
 }
-
 .nav-item::after {
     content: " ";
     position: absolute;
@@ -111,11 +94,9 @@ header {
     transition-timing-function: ease-in-out;
     transform: scaleX(0);
 }
-
 .nav-item:hover::after {
     transform: scaleX(1);
 }
-
 .navbar02 {
     background-color: rgb(194, 63, 43);
     color: wheat;
@@ -127,21 +108,17 @@ header {
     width: 100vw;
     border: 1px solid black;
 }
-
 .navbar02 .links {
     display: flex;
     gap: 2rem;
 }
-
 .mobile-menu-icon {
     display: none;
 }
-
 .mobile-menu {
     display: none;
     font-family: 'Jost', sans-serif;
 }
-
 .btn_pag {
     background-color: orange;
     color: #fff;
@@ -153,12 +130,10 @@ header {
     padding: 5px;
     text-align: center;
 }
-
 .btn_pag:hover {
     scale: 1.1;
     transition: 1s;
 }
-
 .mobile-menu {
     position: absolute;
     width: 300px;
@@ -166,20 +141,17 @@ header {
     overflow: hidden;
     transition: 1s;
 }
-
 .mobile-menu ul {
     font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .mobile-menu .btn_pag {
     width: 200px;
     display: flex;
     justify-content: center;
 }
-
 .fundo_casa {
     background: url('/img/casa_fundo.jpg');
     background-repeat: no-repeat;
@@ -189,7 +161,6 @@ header {
     border: 1px solid #381f1f;
     display: flex;
 }
-
 .fundo_casa .quem_somos {
     font-family: 'Jost', sans-serif;
     text-shadow: 1px 2px 2px #060101;
@@ -202,16 +173,13 @@ header {
     border-radius: 1px;
     text-align: justify;
 }
-
 .quem_somos ul {
     margin-top: 20px;
     margin-left: 15px;
 }
-
 .quem-somos-mobile {
     display: none;
 }
-
 .titulo {
     background-color: #24252a;
     font-family: 'Jost', sans-serif;
@@ -223,7 +191,6 @@ header {
     text-align: center;
     border: 1px solid  #24252a;
 }
-
 /* SLIDES */
 .container {
     display: flex;
@@ -232,34 +199,27 @@ header {
     width: 100vw;
     border: 1px solid  #24252a; 
 }
-
 .slider {
     width: 800px;
     height: 400px;
     overflow: hidden;
     border: 1px solid  #24252a;
 }
-
 .slides {
     width: 400%;
     height: 400px;
     display: flex;
-
 }
-
 .slides input {
     display: none;
 }
-
 .slide {
     width: 25%;
     transition: 2s;
 }
-
 .slide img {
     width: 800px;
 }
-
 .manual-navigation {
     position: absolute;
     width: 800px;
@@ -267,7 +227,6 @@ header {
     display: flex;
     justify-content: center;
 }
-
 .manual-btn {
     border: 2px solid whitesmoke;
     padding: 5px;
@@ -275,30 +234,24 @@ header {
     cursor: pointer;
     transition: 1s;
 }
-
 .manual-btn:not(:last-child) {
     margin-right: 40px;
 }
-
 .manual-btn:hover {
     background-color: white;
 }
-
 #radio1:checked ~ .first {
     margin-left: 0;
 }
 #radio2:checked ~ .first {
     margin-left: -25%;
 }
-
 #radio3:checked ~ .first {
     margin-left: -50%;
 }
-
 #radio4:checked ~ .first {
     margin-left: -75%;
 }
-
 #radio5:checked ~ .first {
     margin-left: -100%;
 }
@@ -311,7 +264,6 @@ header {
 #radio8:checked ~ .first {
     margin-left: -175%;
 }
-
 .navigation-auto div {
     border: 2px solid skyblue;
     padding: 5px;
@@ -319,7 +271,6 @@ header {
     cursor: pointer;
     transition: 1s;
 }
-
 .navigation-auto {
     position: absolute;
     width: 800px;
@@ -327,15 +278,12 @@ header {
     display: flex;
     justify-content: center;
 }
-
 .navigation-auto div:not(:last-child) {
     margin-right: 40px;
 }
-
 #radio1:checked ~ .navigation-auto .auto-btn1 {
     background-color: #fff;
 }
-
 #radio2:checked ~ .navigation-auto .auto-btn2 {
     background-color: #fff;
 }
@@ -357,74 +305,56 @@ header {
 #radio8:checked ~ .navigation-auto .auto-btn8 {
     background-color: #fff;
 }
-
 /* FIM - SLIDES */
-
 footer .fale_conosco {
     padding: 10px;
 }
-
 .container-desktop {
     font-family: 'Jost', sans-serif;
     display: flex;
     justify-content: space-between;
     color: #fff;
     background-color: rgb(194, 63, 43);
-    height: 400px;
+    height: 330px;
     width: 100vw;
     text-decoration: none;
     box-shadow: 1px 1px 5px  #464646;
 }
-
 footer .fale_conosco {
     padding: 10px;
 }
-
 .fale_conosco, 
 .redes_sociais  {
     text-shadow: 1px 2px 1px #060101;
     margin: 3px;
 }
-
 .fale_conosco li {
     margin: 15px;
-    padding: 5px;
+    padding: 1px;
 }
-
 .fale_conosco .localizacao:hover {
     scale: 1.1;
     transition: 1s;
     text-shadow: 1px 3px 2px #060101;
 }
-
 .fale_conosco .link-face:hover {
     scale: 1.1;
     transition: 1s;
     text-shadow: 1px 3px 2px #060101;
 }
-
-.redes_sociais li {
-    padding: 10px;
-    margin-right: 450px;
-    margin-top: 10px;
-}
-
 .logo a,
 .logo span,
 .link-face a {
     margin: 2px;
     font-size: 16px;
 }
-
 .redes_sociais li:hover{
     scale: 1.1;
     transition: 0.5s;
 }
-
 .container-mobile {
     display: none;
 }
-
 .whats {
     box-shadow: 1px 1px 1px 1px black;
     background-color:rgb(0, 231, 119) ;
@@ -434,30 +364,24 @@ footer .fale_conosco {
     z-index: 9999;
     border-radius: 10px;
 }
-
 .whats img {
     margin: 1px;
     padding: 1px;
 }
-
 .whats span {
     position: relative;
     bottom: 15px;
     right:5px;
 }
-
 .whats-contato {
     color: #fff;
     font-family: 'Jost', sans-serif;
     text-shadow: 1px 1px 1px #24252a;
-    padding: 5px;
 }
-
 .whats:hover{ 
     scale: 1.1;
     transition: 1s
 }
-
 .logo-site-mobile {
     display: none;
 }

@@ -193,7 +193,7 @@
     }
 
     .container-mobile .fale-conosco-mobile {
-        margin-top: 15px;
+        margin-top: 25px;
         margin-left: 1px;
     }
 
@@ -203,9 +203,6 @@
         text-align: left;
     }
 
-    /* .fale-conosco-mobile .redes-sociais-mobile {
-        margin: 10px;
-    } */
 
     .fale-conosco-mobile ul {
         margin: 2px;
@@ -214,15 +211,11 @@
     .fale-conosco-mobile ul li {
         display: flex;
         justify-content: left;
-        margin: 5px;
+        margin: 6px;
     }
 
     .fale-conosco-mobile a {
         font-size: 16px;
-    }
-
-    .fale-conosco-mobile .logo a {
-        font-size: 11px;
     }
 
     .fale-conosco-mobile li span {
@@ -275,11 +268,7 @@
         padding: 10px;
     }
 
-    .whats-contato {
-        color: #fff;
-        font-family: 'Jost', sans-serif;
-        text-shadow: 1px 1px 1px #24252a;
-    }
+   
 
     .whats span {
         font-size: 15px;
