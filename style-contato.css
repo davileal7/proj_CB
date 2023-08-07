@@ -160,6 +160,11 @@ header {
     border: 1px solid #381f1f;
     display: flex;
 }
+
+.contato-deitado {
+    display: none;
+}
+
 .contato {
     text-shadow: 1px 2px 2px #060101;
     backdrop-filter: blur(10px);
@@ -174,6 +179,10 @@ header {
 }
 .contato p {
     margin: 15px;
+}
+
+.container-info-deitado {
+    display: none;
 }
 
 .container-info {
@@ -324,7 +333,7 @@ button:hover {
 }
 .map {
     border: 1px solid black;
-    margin-left: 450px;
+    margin-left: 400px;
 }
 .map h2 {
     background-color: #a94141;
