@@ -1,5 +1,3 @@
-
-
 @media(max-width: 1000px) {
 
     header {
@@ -22,6 +20,9 @@
     .navbar {
         padding: 20px;
     }
+    .navbar02 {
+        display: none;
+    }
 
     .contato {
         display: none;
@@ -32,7 +33,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        height: 70vh; 
+        height: 100vh; 
         border: 1px solid #381f1f;
         display: flex;
     }
@@ -43,7 +44,7 @@
         box-shadow: 0px;
         color: #fff;
         font-size: 18px;
-        height: 170px;
+        height: 0px;
         width: 490px;
         border-radius: 1px;
         display: block;
@@ -70,7 +71,11 @@
         margin-right: 30px;
         color: #fff;
         text-shadow: 1px 2px 2px #060101;
-        backdrop-filter: none; 
+        backdrop-filter: none;
+    }
+
+    .container-info-deitado span {
+        font-size: 15px;
     }
     
     .container-info-deitado h2 {
@@ -81,21 +86,55 @@
     .container-info-deitado ul li {
         display: flex;
         justify-content: center;
-        margin: 15px;
+        margin: 10px;
         font-size: 15px;
+    }
+
+    .container-formulario {
+        padding: 10px;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 350px;
     }
    
   
-
     .map {
-        margin-left: 0px;
+        margin-left: 20px;
+        height: 300px;
+        border: none;
     }
     .map h2 {
         font-size: 18px;
     }
     .map iframe {
-        height: 390px;
+        height: 300px;
         width: 350px;
+    }
+
+    .whats {
+        position: fixed;
+        bottom: 30px;
+        right: 5px;
+        height: 35px;
+    }
+
+    .whats img {
+        position: relative;
+        bottom: 8px;
+        padding: 10px;
+    }
+
+    .whats-contato {
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 1px 1px #24252a;
+    }
+
+    .whats span {
+        font-size: 15px;
+        position: relative;
+        bottom: 30px;
+        right: 15px;
     }
 }
 
@@ -287,8 +326,8 @@
         margin-top: 0px;
         font-family: 'Jost', sans-serif;
         color: #a94141;
-        height: 780px;
-        width: 260px;
+        height: 700px;
+        width: 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -320,7 +359,7 @@
         margin-left: 10px;
         display: flex;
         justify-content: center;
-        width: 390px;
+        width: 400px;
     }
     
     .map h2 {
