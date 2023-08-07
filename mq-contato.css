@@ -29,13 +29,13 @@
     }
 
     .fundo_casa {
-        background: url('/img/02sala.jpg');
+        background: url('/img/contato-deitato.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        height: 100vh; 
+        height: 90vh; 
         border: 1px solid #381f1f;
-        display: flex;
+    
     }
 
     .contato-deitado  {
@@ -86,7 +86,7 @@
     .container-info-deitado ul li {
         display: flex;
         justify-content: center;
-        margin: 10px;
+        margin: 5px;
         font-size: 15px;
     }
 
@@ -97,9 +97,8 @@
         height: 350px;
     }
    
-  
     .map {
-        margin-left: 20px;
+        margin-left: 30px;
         height: 300px;
         border: none;
     }
@@ -108,28 +107,24 @@
     }
     .map iframe {
         height: 300px;
-        width: 350px;
+        width: 420px;
     }
-
     .whats {
         position: fixed;
         bottom: 30px;
         right: 5px;
         height: 35px;
     }
-
     .whats img {
         position: relative;
         bottom: 8px;
         padding: 10px;
     }
-
     .whats-contato {
         color: #fff;
         font-family: 'Jost', sans-serif;
         text-shadow: 1px 1px 1px #24252a;
     }
-
     .whats span {
         font-size: 15px;
         position: relative;
