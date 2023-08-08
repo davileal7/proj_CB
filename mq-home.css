@@ -48,7 +48,6 @@
         display: block;
         text-align: justify;
         margin-top: 100px;
-        box-shadow: 1px 1px 3px black;
     }
 
     .quem_somos-deitado h1 {
@@ -198,24 +197,30 @@
         flex-direction: column;
     }
 
-    .quem_somos {
-       display: none;
+    
+    .fundo_casa .quem_somos-deitado {
+        display: none;
     }
     
     .quem-somos-mobile  {
-        margin-top: 460px;
+        margin-top: 100px;
         margin-left: 5px;
         color: #fff;
-        display: flex;
+        display: block;
         font-family: 'Jost', sans-serif;
         list-style: none;
         font-size: 20px;
         text-shadow: 1px 2px 2px #060101;
     }
-    .quem_somos-deitado {
-        display: none;
+
+    .quem-somos-mobile h1 {
+        font-size: 25px;
     }
-    
+
+    .quem-somos-mobile ul {
+        margin: 15px;
+    }
+   
     .titulo {
         width: 100vw;
     }

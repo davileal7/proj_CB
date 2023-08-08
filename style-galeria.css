@@ -181,6 +181,10 @@ header {
     justify-content: center;
 }
 
+.galeria-deitado {
+    display: none;
+}
+
 .galeria {
     height: 650px;
     width: 100vw;
