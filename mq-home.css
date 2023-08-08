@@ -1,3 +1,183 @@
+@media(max-width: 1000px) {
+
+    header {
+        position: fixed;
+    }
+    .logo-site h1 {
+        font-size: 18px;
+    }
+    .logo-site span {
+        position: relative;
+        bottom: 8px;
+        left: 2px;
+    }
+    .logo-img {
+        height: 35px;
+    }
+    .nav-list a {
+        font-size: 18px;
+    }
+    .navbar {
+        padding: 20px;
+    }
+    .navbar02 {
+        display: none;
+    }
+
+    .contato {
+        display: none;
+    }
+
+    .fundo_casa {
+        background: none;
+        background-color: #381f1f;
+        border: 1px solid  #24252a;
+    }
+    .quem_somos {
+        display: none;
+    }
+
+     .fundo_casa .quem_somos-deitado  {
+        text-shadow: 1px 2px 2px #060101;
+        backdrop-filter: none;
+        color: #fff;
+        font-size: 18px;
+        height: 110px;
+        width: 350px;
+        border-radius: 1px;
+        display: block;
+        text-align: justify;
+        margin-top: 100px;
+        box-shadow: 1px 1px 3px black;
+    }
+
+    .quem_somos-deitado h1 {
+        font-size: 25px;
+    }
+
+    .quem_somos-deitado ul {
+        width: 400px;
+        margin: 10px;
+    }
+
+    .slider {
+        width: 600px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .slides {
+        width: 400%;
+    }
+
+    .slides input {
+        display: none;
+    }
+
+    .slide {
+        width: 30%;
+        transition: 2s;
+    }
+
+    #radio1:checked ~ .first {
+        margin-left: 0;
+    }
+    #radio2:checked ~ .first {
+        margin-left: -25%;
+    }
+
+    #radio3:checked ~ .first {
+        margin-left: -50%;
+    }
+
+    #radio4:checked ~ .first {
+        margin-left: -75%;
+    }
+
+    #radio5:checked ~ .first {
+        margin-left: -100%;
+    }
+
+    #radio6:checked ~ .first {
+        margin-left: -150%;
+    }
+
+    #radio7:checked ~ .first {
+        margin-left: -180%;
+    }
+
+    #radio8:checked ~ .first {
+        margin-left: -210%;
+    }
+
+    .slide img {
+        height: 300px;
+        width: 600px;
+    }
+
+    .manual-navigation {
+    
+        position: absolute;
+        width: 600px;
+        margin-top: -140px
+    }
+
+    .navigation-auto {
+        
+        position: absolute;
+        width: 600px;
+        margin-top: 260px; 
+    }
+ 
+    .mobile-menu .nav-item {
+       width: 100px; 
+       height: 35px;
+       background-color: #24252a;
+    }
+    
+    .mobile-menu .nav-item:hover {
+        background-color: #907a42;
+        transition: 1.5s;
+        scale: 1.1;
+    }
+
+    .nav-item:hover::after {
+        transform: none;
+    }
+
+    .nav-item::after {
+        background-color: transparent;
+        transform: none;
+    }
+
+
+
+    
+    .whats {
+        position: fixed;
+        bottom: 30px;
+        right: 5px;
+        height: 35px;
+    }
+    .whats img {
+        position: relative;
+        bottom: 8px;
+        padding: 10px;
+    }
+    .whats-contato {
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 1px 1px #24252a;
+    }
+    .whats span {
+        font-size: 15px;
+        position: relative;
+        bottom: 30px;
+        right: 15px;
+    }
+}
+
+
 /* RESPONSIVE DESIGN */
 @media(max-width: 730px) 
 
@@ -31,6 +211,9 @@
         list-style: none;
         font-size: 20px;
         text-shadow: 1px 2px 2px #060101;
+    }
+    .quem_somos-deitado {
+        display: none;
     }
     
     .titulo {

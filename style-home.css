@@ -161,6 +161,9 @@ header {
     border: 1px solid #381f1f;
     display: flex;
 }
+.quem_somos-deitado {
+    display: none;
+}
 .fundo_casa .quem_somos {
     text-shadow: 1px 2px 2px #060101;
     backdrop-filter: blur(8px);

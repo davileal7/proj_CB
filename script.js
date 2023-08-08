@@ -17,7 +17,7 @@ document.querySelector("#radio1").checked = true;
 
 setInterval ( function () {
     nextImg()
-}, 4000)
+}, 5000)
 
 function nextImg() {
     contar++;
