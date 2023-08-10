@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
 }
 
 /*navbar*/
@@ -181,21 +182,15 @@ header {
     justify-content: center;
 }
 
-.titulo {
-    background-color: #24252a;
-    font-family: 'Jost', sans-serif;
-    box-shadow: 1px 1px 5px  #464646;
-    color: #fff;
-    height: 30px;
-    width: 100vw;
-    font-size: 1.5rem;
-    text-align: center;
-    border: 1px solid  #24252a;
-}
+
 
 .container-pag-mobile {
     display: none;
 } 
+
+.container-pag-deitado {
+    display: none;
+}
 
 .container-pag {
     background: url('/img/pagamento-fundo.jpg');
@@ -249,44 +244,9 @@ header {
     margin: 5px;
 }
 
-.imagens {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-}
 
-.imagens img {
-    height: 200px;
-    width: 300px;
-    border-radius: 5px;
-    box-shadow: 1px 2px 2px black;
-}
 
-/*
-.imagens:hover > :not(:hover) {
-    scale: 0.9; 
-    opacity: 0.3; 
-} */
 
-img:hover {
-    scale: 1.05; 
-}
-
-img {
-    transition: 1s;
-}
-
-.galeria-mobile {
-    display: none;
-}
-
-.imagens-mobile {
-    display: none;
-}
-
-.quem-somos-mobile {
-    display: none;
-}
 
 .container-desktop {
     font-family: 'Jost', sans-serif;

@@ -32,6 +32,7 @@
         background: none;
         background-color: #381f1f;
         border: 1px solid  #24252a;
+  
     }
     .quem_somos {
         display: none;
@@ -42,8 +43,7 @@
         backdrop-filter: none;
         color: #fff;
         font-size: 18px;
-        height: 110px;
-        width: 350px;
+      
         border-radius: 1px;
         display: block;
         text-align: justify;
@@ -186,6 +186,15 @@
       position: fixed;       
     }
 
+    .nav-item:hover::after {
+        transform: none;
+    }
+
+    .nav-item::after {
+        background-color: transparent;
+        transform: none;
+    }
+
     .fundo_casa {
         background: url('img/casa-mobile.jpg');
         background-repeat: no-repeat;
@@ -304,9 +313,9 @@
     }
 
     .nav-item a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     /*FIM - Opções Mobile */
 

@@ -72,8 +72,15 @@
     }
 
     .container-info-deitado span {
-        font-size: 15px;
+        font-size: 12px;
     }
+
+    #icon-d {
+        font-size: 12px;
+    }
+
+  
+    
     
     .container-info-deitado h2 {
         text-align: center;
@@ -89,13 +96,13 @@
 
     .container-formulario {
         padding: 10px;
-        margin-left: 30px;
-        margin-top: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
         height: 350px;
     }
    
     .map {
-        margin-left: 40px;
+        margin-left: 10px;
         height: 300px;
         border: none;
     }
@@ -103,7 +110,7 @@
         font-size: 18px;
     }
     .map iframe {
-        height: 300px;
+        height: 310px;
         width: 420px;
     }
     .whats {
@@ -225,9 +232,9 @@
     }
 
     .nav-item a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     /*FIM - Opções Mobile */
 
@@ -303,7 +310,7 @@
     .container-info ul li {
         display: flex;
         justify-content: center;
-        margin: 15px;
+        margin: 10px;
     }
     
     .container-info .localizacao:hover {
@@ -433,24 +440,17 @@
         font-size: 11px;
     }
 
+    .fale-conosco-mobile .link-face a {
+        font-size: 11px;
+    }
+
     .fale-conosco-mobile .localizacao:hover, 
     .fale-conosco-mobile .link-face:hover{
         scale: 1.05;
         transition: 1s;
     }
 
-    .fale-conosco-mobile .link-face a {
-        font-size: 11px;
-    }
-
-    .redes-sociais-mobile li a {
-        font-size: 11px;
-    }
-
-    .redes-sociais-mobile li:hover {
-        scale: 1.1;
-        transition: 1s;
-    }
+    
 
     .logo-site-mobile {
         display: flex;
