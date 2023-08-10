@@ -33,7 +33,7 @@
     }
 
     .galeria-deitado #img01 {
-        margin-top: 55px;
+        margin-top: 50px;
     }
     .galeria-deitado {
         display: block;
@@ -43,15 +43,15 @@
     .imagens-deitado {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         margin: 5px;
     }
     .galeria-deitado img {
         height: 150px;
-        width: 210px;
+        width: 175px;
         border-radius: 5px;
         box-shadow: 1px 2px 2px black;
-        margin: 2px;
+        margin: 1px;
     }
     .whats {
         position: fixed;
