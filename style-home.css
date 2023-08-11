@@ -308,9 +308,7 @@ header {
     background-color: #fff;
 }
 /* FIM - SLIDES */
-footer .fale_conosco {
-    padding: 10px;
-}
+
 .container-desktop {
     display: flex;
     justify-content: space-between;
@@ -328,7 +326,7 @@ footer .fale_conosco {
     text-shadow: 1px 3px 2px #060101;
 }
 footer .fale_conosco {
-    padding: 10px;
+    padding: 5px;
 }
 .fale_conosco, 
 .redes_sociais  {
