@@ -247,9 +247,8 @@ img {
 
 
 footer .fale_conosco {
-    padding: 10px;
+    padding: 5px;
 }
-
 .container-desktop {
     font-family: 'Jost', sans-serif;
     display: flex;
@@ -261,25 +260,21 @@ footer .fale_conosco {
     text-decoration: none;
     box-shadow: 1px 1px 5px  #464646;
 }
-
 .fale_conosco, 
 .redes_sociais  {
     text-shadow: 1px 2px 1px #060101;
     margin: 3px;
 }
-
 .fale_conosco li {
     margin: 15px;
     padding: 1px;
 }
-
 .icon-localizacao:hover,
 .link-face:hover {
     scale: 1.02;
     transition: 1s;
     text-shadow: 1px 3px 2px #060101;
 }
-
 .logo a,
 .logo span,
 .icon-localizacao a,
@@ -288,12 +283,9 @@ footer .fale_conosco {
     font-size: 15px;
 }
 
-
-
 .container-mobile {
     display: none;
 }
-
 .whats {
     box-shadow: 1px 1px 1px 1px black;
     background-color:rgb(0, 231, 119) ;

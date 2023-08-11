@@ -410,12 +410,12 @@
         background-color: rgb(194, 63, 43);
         width: 100vw;
         text-decoration: none;
-        border: 1px solid #381f1f;
-        height: 200px;
+        border: 1px solid #24252a;
+        height: 220px;
     }
 
     .container-mobile .fale-conosco-mobile {
-        margin-top: 25px;
+        margin-top: 10px;
         margin-left: 1px;
     }
 
@@ -432,15 +432,12 @@
     .fale-conosco-mobile ul li {
         display: flex;
         justify-content: left;
-        margin: 6px;
+        margin: 5px;
     }
 
-    .fale-conosco-mobile a {
-        font-size: 16px;
-    }
 
     .fale-conosco-mobile li span {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .fale-conosco-mobile .link-face a {
@@ -464,7 +461,7 @@
 
     .whats {
         position: fixed;
-        bottom: 30px;
+        bottom: 35px;
         right: 5px;
         height: 35px;
     }
