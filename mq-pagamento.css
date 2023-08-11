@@ -34,6 +34,13 @@
        
         border: 1px solid  #24252a;
     }
+
+    #icon-pag {
+        margin: 2px;
+        color: #65f37b;
+     
+        border-radius: 5px;
+    }
     .container-pag-deitado .container-info-deitado {
         text-shadow: 1px 2px 2px #060101;
         backdrop-filter: none;
@@ -67,6 +74,13 @@
     .container-info-deitado li {
         text-align: left;
         margin-left: 30px;
+    }
+
+    .logo a,
+    .logo span,
+    .link-face a {
+        margin: 2px;
+        font-size: 13px;
     }
 
     .whats {

@@ -149,6 +149,12 @@
         transform: none;
     }
 
+    .logo a,
+    .logo span,
+    .link-face a {
+        margin: 2px;
+        font-size: 13px;
+    }
 
 
     

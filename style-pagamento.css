@@ -214,10 +214,9 @@ header {
     box-shadow: 1px 1px 3px black;
 }
 
-#icon-pag {
+ #icon-pag {
     margin: 2px;
     color: #65f37b;
-    background-color: #24252a;
     border-radius: 5px;
 }
 
@@ -275,29 +274,21 @@ footer .fale_conosco {
     padding: 1px;
 }
 
-.fale_conosco .localizacao:hover {
-    scale: 1.1;
-    transition: 1s;
-    text-shadow: 1px 3px 2px #060101;
-}
-
-.fale_conosco .link-face:hover {
-    scale: 1.1;
+.icon-localizacao:hover,
+.link-face:hover {
+    scale: 1.02;
     transition: 1s;
     text-shadow: 1px 3px 2px #060101;
 }
 
 .logo a,
 .logo span,
+.icon-localizacao a,
 .link-face a {
     margin: 2px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
-.redes_sociais li:hover{
-    scale: 1.1;
-    transition: 0.5s;
-}
 
 .container-mobile {
     display: none;

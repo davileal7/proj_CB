@@ -30,6 +30,7 @@
 
     .fundo_casa {
         height: 100vh;
+        width: 100vw;
         background: none;
         background-color: #381f1f;
         border: 1px solid  #24252a;
@@ -42,7 +43,7 @@
         color: #fff;
         font-size: 18px;
         height: 0px;
-        width: 490px;
+        width: 100vw;
         border-radius: 1px;
         display: block;
         text-align: justify;
@@ -65,23 +66,24 @@
     .container-info-deitado {
         display: block;
         margin-top: 100px;
-        margin-right: 30px;
+        margin-right: 0px;
         color: #fff;
         text-shadow: 1px 2px 2px #060101;
         backdrop-filter: none;
+        width: 100vw;
     }
-
-    .container-info-deitado span {
-        font-size: 12px;
+    .logo a,
+    .logo span,
+    .link-face a {
+        margin: 2px;
+        font-size: 13px;
     }
-
+   
     #icon-d {
-        font-size: 12px;
+        font-size: 13px;
     }
 
   
-    
-    
     .container-info-deitado h2 {
         text-align: center;
         margin: 1px;
@@ -91,7 +93,6 @@
         display: flex;
         justify-content: center;
         margin: 5px;
-        font-size: 15px;
     }
 
     .container-formulario {
@@ -102,7 +103,7 @@
     }
    
     .map {
-        margin-left: 10px;
+        margin-left: 0px;
         height: 300px;
         border: none;
     }
@@ -111,7 +112,7 @@
     }
     .map iframe {
         height: 310px;
-        width: 420px;
+        width: 390px;
     }
     .whats {
         position: fixed;
@@ -301,6 +302,14 @@
         text-shadow: 1px 2px 2px #060101;
         backdrop-filter: none; 
     }
+
+    .logo a,
+    .logo span,
+    .icon-localizacao a,
+    .link-face a {
+        margin: 2px;
+        font-size: 15px;
+    }
     
     .container-info h2 {
         text-align: center;
@@ -313,12 +322,7 @@
         margin: 10px;
     }
     
-    .container-info .localizacao:hover {
-        scale: 1.1;
-        transition: 0.5s;
-        text-shadow: 1px 3px 2px #060101;
-    }
-
+  
     .container-formulario {
         padding: 1px;
         margin-left: 0px;
@@ -358,7 +362,7 @@
         margin-left: 10px;
         display: flex;
         justify-content: center;
-        width: 400px;
+        width: 390px;
     }
     
     .map h2 {
@@ -401,7 +405,6 @@
         flex-direction: column;
         justify-content: left;
         align-items: normal;
-        font-family: 'Jost', sans-serif;
         text-shadow: 1px 2px 2px black;
         color: #fff;
         background-color: rgb(194, 63, 43);
@@ -444,13 +447,6 @@
         font-size: 11px;
     }
 
-    .fale-conosco-mobile .localizacao:hover, 
-    .fale-conosco-mobile .link-face:hover{
-        scale: 1.05;
-        transition: 1s;
-    }
-
-    
 
     .logo-site-mobile {
         display: flex;
